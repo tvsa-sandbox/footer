@@ -1,0 +1,19 @@
+// Kolibri Spekter Ratios Engine | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+// Aspect Types
+
+$AspectV1: nth(nth($Aspects,1), 1); // 1x1
+$AspectV2: nth(nth($Aspects,2), 1); // 3x4
+$AspectV3: nth(nth($Aspects,3), 1); // 4x3
+$AspectV4: nth(nth($Aspects,4), 1); // 9x16
+$AspectV5: nth(nth($Aspects,5), 1); // 16x9
+$AspectV6: nth(nth($Aspects,6), 1); // 40x17
+
+// Padding Values
+
+$Aspect1: nth(nth($Aspects,1), 2); // 1x1 (100%)
+$Aspect2: nth(nth($Aspects,2), 2); // 3x4 (133.33%)
+$Aspect3: nth(nth($Aspects,3), 2); // 4x3 (75%)
+$Aspect4: nth(nth($Aspects,4), 2); // 9x16 (177.78%)
+$Aspect5: nth(nth($Aspects,5), 2); // 16x9 (56.25%)
+$Aspect6: nth(nth($Aspects,6), 2); // 40x17 (42.5%)

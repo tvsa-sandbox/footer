@@ -1,0 +1,13 @@
+// Kolibri ThemerUI Engine | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+@mixin ThemerUI{
+
+	@for $TM from 1 through length($ThemesUI) {
+
+		$SingleTheme: nth($ThemesUI, $TM);
+
+		&.#{$SingleTheme} {
+			color: $SingleTheme;
+		}
+	}
+} // ThemerUI Engine

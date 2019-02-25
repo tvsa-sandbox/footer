@@ -1,0 +1,46 @@
+// Kolibri Morpher Ranges Engine | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+// Device Name
+
+$Devices: nth(nth($Breakpoints, 1),1);
+
+// Size Values from list
+
+$SizeValues: map-values($Breakpoints);
+
+$SizeValue: nth(nth($SizeValues,1), 1);
+
+$Sp: nth(nth($Breakpoints, 1),1); // Smartphone
+$Tb: nth(nth($Breakpoints, 2),1); // Tablet
+$Lt: nth(nth($Breakpoints, 3),1); // Laptop
+$Dt: nth(nth($Breakpoints, 4),1); // Desktop
+$Dt-HD: nth(nth($Breakpoints, 5),1); // Desktop HD
+
+// Smartphone Range
+
+$Sp-R1: nth(nth($SizeValues,1), 1);
+$Sp-R2: nth(nth($SizeValues,1), 2);
+
+// Tablet Range
+
+$Tb-R1: nth(nth($SizeValues,2), 1);
+$Tb-R2: nth(nth($SizeValues,2), 2);
+
+// Laptop Range
+
+$Lt-R1: nth(nth($SizeValues,3), 1);
+$Lt-R2: nth(nth($SizeValues,3), 2);
+
+// Desktop Range
+
+$Dt-R1: nth(nth($SizeValues,4), 1);
+$Dt-R2: nth(nth($SizeValues,4), 2);
+
+// Desktop HD Range
+
+$Dt-HD-R1: nth(nth($SizeValues,5), 1);
+$Dt-HD-R2: nth(nth($SizeValues,5), 2);
+
+// All Desktop
+
+$A-Dt: nth(nth($SizeValues,6), 1);

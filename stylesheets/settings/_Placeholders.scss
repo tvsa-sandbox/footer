@@ -1,0 +1,21 @@
+// Placeholders Settings File | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+// Placeholder icon definition
+
+$PlaceholderIcon: '\e000';
+$PlaceholderIconSize: 160px;
+$PlaceholderIconColor: 'Color-2';
+$PlaceholderBackground: 'Color-2';
+
+//Aspects Ratios
+
+$Aspects: (
+    1_1: 100%,
+    3_4: 133.33%,
+    4_3: 75%,
+    9_16: 177.78%,
+    16_9: 56.25%,
+    40_17: 42.5%
+);
+
+@import "./engines/Spekter";

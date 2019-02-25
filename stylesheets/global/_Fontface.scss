@@ -1,0 +1,67 @@
+// Fontface | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+// String Replace
+
+@function str-replace($string, $search, $replace: "") {
+    $index: str-index($string, $search);
+    @if $index {
+        @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+    }
+    @return $string;
+}
+
+// Font Face
+
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf) {
+    $src: null;
+    $extmods: ( eot: "?");
+    $formats: ( otf: "opentype", ttf: "truetype");
+    @each $ext in $exts {
+        $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+        $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+        $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+    }
+    @font-face {
+        font-family: quote($name);
+        font-style: $style;
+        font-weight: $weight;
+        src: $src;
+    }
+}
+
+// Iconography
+
+[class^="Icn_"], [class*=" Icn_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Iconography';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+// Iconfont
+
+@include font-face(Iconography, "..#{$StaticsPath}/iconography/iconography_#{$WFVersion}");
+
+// WhiteLabel Font (Cabin)
+
+@include font-face(whitelabel-bold, "..#{$StaticsPath}/fonts/whitelabel/whitelabel-bold");
+@include font-face(whitelabel-regular, "..#{$StaticsPath}/fonts/whitelabel/whitelabel-regular");
+
+// Footer Font (Roboto)
+
+@include font-face(roboto-medium, "..#{$StaticsPath}/fonts/roboto/roboto-medium");
+@include font-face(roboto-regular, "..#{$StaticsPath}/fonts/roboto/roboto-regular");
+
+// Font 1 Example
+
+// @include font-face(#{$Font-1}-black, "..#{$StaticsPath}/fonts/#{$Font-1}/#{$Font-1}-black");
+// @include font-face(#{$Font-1}-bold, "..#{$StaticsPath}/fonts/#{$Font-1}/#{$Font-1}-bold");
+// @include font-face(#{$Font-1}-extrabold, "..#{$StaticsPath}/fonts/#{$Font-1}/#{$Font-1}-extrabold");
+// @include font-face(#{$Font-1}-light, "..#{$StaticsPath}/fonts/#{$Font-1}/#{$Font-1}-light");
+// @include font-face(#{$Font-1}-medium, "..#{$StaticsPath}/fonts/#{$Font-1}/#{$Font-1}-medium");
+// @include font-face(#{$Font-1}-regular, "..#{$StaticsPath}/fonts/#{$Font-1}/#{$Font-1}-regular");
+// @include font-face(#{$Font-1}-thin, "..#{$StaticsPath}/fonts/#{$Font-1}/#{$Font-1}-thin");
