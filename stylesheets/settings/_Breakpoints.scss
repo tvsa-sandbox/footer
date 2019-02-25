@@ -1,0 +1,12 @@
+// Breakpoints Settings File | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+$Breakpoints: (
+    Smartphone: (0px,414px),
+    Tablet: (415px,768px),
+    Laptop: (769px,1024px),
+    Desktop: (1025px,1280px),
+    Desktop-HD: (1281px, 1440px),
+    All-Desktop: (769px)
+);
+
+@import "./engines/Morpher";

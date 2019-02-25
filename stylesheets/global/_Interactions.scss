@@ -1,0 +1,52 @@
+// Interactions | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+// Hover for links and buttons
+
+@mixin Hover {
+
+    transition: opacity .5s;
+
+    &:hover {
+
+        opacity: .7;
+
+    }
+}
+
+@mixin HoverCard {
+
+    transition: opacity .5s;
+
+    &:hover {
+
+        opacity: .7;
+
+        @include Themer(box-shadow, #000000, '0px 0px 20px'); 
+
+    }
+}
+
+@mixin HoverButton {
+
+    transition: opacity .3s;
+
+    &:hover {
+
+        opacity: .5;
+
+    }
+}
+
+@mixin HoverUnderline {
+
+	transition: opacity .5s;
+
+	&:hover {
+
+		opacity: .7;
+		text-decoration: underline;
+        
+		@include Themer(color, Color-3);
+
+	}
+}

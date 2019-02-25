@@ -1,0 +1,76 @@
+// Globals | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+// Display
+
+.Display {
+
+    display: none;
+
+}
+.Active {
+
+    display: flex;
+
+}
+
+// Body Black
+
+.BodyBlack {
+
+    background: black;
+
+}
+
+.GhostHeadlines {
+
+    display: none;
+    margin: 0px;
+
+}
+
+.jw-reset {
+
+    transition-property: none;
+
+}
+
+// Font Fixes
+
+h1, h2, h3, h4, h5, h6 {
+
+   white-space: pre-wrap;
+
+}
+
+@mixin FontSmoothing {
+
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+
+}
+
+@mixin OrcaMarginReset {
+
+    &:first-child {
+
+        margin-left: 0px;
+
+    }
+}
+
+@mixin WidgetBottomSpace {
+
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+@mixin ButtonBorder {
+
+        border-radius: 50px;
+        border: 2px solid white;
+
+}

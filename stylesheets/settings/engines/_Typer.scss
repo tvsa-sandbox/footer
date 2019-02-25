@@ -1,0 +1,28 @@
+// Kolibri Typer Engine | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+@mixin Typer($FontKind) {
+
+    @for $T from 1 through length($TypographyStyles) {
+
+        $FF: nth(nth(nth($TypographyStyles, $T),2),1);
+        $FW: nth(nth(nth($TypographyStyles, $T),2),2);
+        $FS: nth(nth(nth($TypographyStyles, $T),2),3);
+        $LS: nth(nth(nth($TypographyStyles, $T),2),4);
+        $LH: nth(nth(nth($TypographyStyles, $T),2),5);
+
+        $FontVariant: nth(nth($TypographyStyles, $T),1);
+
+        @if $FontKind == $FontVariant {
+
+            font-family: $FF , sans-serif;
+            font-weight: $FW;
+            font-size: $FS;
+            font-display: swap; 
+            letter-spacing: $LS;
+            line-height: $LH;
+
+            @include FontSmoothing;
+
+        }
+    }
+}

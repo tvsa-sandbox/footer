@@ -1,0 +1,86 @@
+// Typography | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+$TypographyStyles: (
+
+// WhiteLabel | Weight | Size | Letter Spacing | Line Height
+
+// Headlines
+
+    // Big Titles | HighImpact
+
+    HeadlineMain: (whitelabel-bold, 700, 38px, 1px, 40px),
+    HeadlineMainDesktop: (whitelabel-bold, 700, 40px, 1px, 44px),
+    HeadlineMainDescription: (whitelabel-bold, 700, 30px, 1px, 22px),
+    HeadlineMainDescriptionDesktop: (whitelabel-bold, 700, 42px, 1px, 40px),
+
+    // SubTitles | MostViewed | Article Title | Video Title | Quote
+
+    HeadlineSub: (whitelabel-bold, 700, 32px, 1px, 32px),
+    HeadlineSubDesktop: (whitelabel-bold, 700, 42px, 1px, 36px),
+    HeadlineSubExtra: (whitelabel-regular, 400, 28px, 1px, 30px),
+    HeadlineSubExtraDesktop: (whitelabel-regular, 400, 30px, 1px, 32px),
+
+// Items
+
+    // Item Titles | Item Description
+
+    ItemTitle: (whitelabel-bold, 700, 18px, 0px, 20px),
+    ItemTitleDesktop: (whitelabel-bold, 700, 20px, 0px, 22px),
+    ItemTitleExtra: (whitelabel-regular, 400, 18px, 0px, 20px),
+    ItemTitleExtraDesktop: (whitelabel-regular, 400, 20px, 0px, 22px),
+    ItemTitleVariant: (whitelabel-regular, 400, 20px, 0px, 22px),
+    ItemTitleVariantDesktop: (whitelabel-regular, 400, 18px, 0px, 20px),
+    ItemTitleDescription: (whitelabel-regular, 400, 14px, 0px, 16px),
+    ItemTitleDescriptionDesktop: (whitelabel-regular, 400, 16px, 0px, 18px),
+
+// SubText
+
+    // Button Text | Tags | Extra texts
+
+    SubTextButton: (whitelabel-bold, 700, 18px, 0px, 20px),
+    SubTextButtonDesktop: (whitelabel-bold, 700, 20px, 1px, 20px),
+    SubTextInfo: (whitelabel-bold, 700, 12px, 0px, 14px),
+    SubTextInfoDesktop: (whitelabel-bold, 700, 14px, 1px, 18px),
+    SubTextTag: (whitelabel-bold, 700, 16px, 0px, 18px),
+    SubTextTagDesktop: (whitelabel-bold, 700, 18px, 0px, 20px),
+    SubTextCredit:(whitelabel-bold, 700, 12px, 0px, 14px),
+    SubTextCreditDesktop: (whitelabel-bold, 400, 14px, 0px, 14px),
+
+// LongText
+
+    // Body Text | Article
+
+    BodyText: (whitelabel-regular, 400, 18px, 1px, 24px),
+    BodyTextDesktop: (whitelabel-bold, 700, 24px, 0px, 26px),
+    BodyTextSubtitle: (whitelabel-regular, 400, 20px, 1px, 24px),
+    BodyTextSubtitleDesktop: (whitelabel-regular, 400, 16px, 1px, 20px),
+
+// FooterReserved
+
+    // Reserved Spaces | Footer
+
+    FooterTextAbout: (roboto-regular, 400, 14px, 0px, 15px),
+    FooterTextContact: (roboto-medium, 500, 12px, 0px, 15px),
+    FooterTextCopyright: (roboto-regular, 400, 10px, 0px, 15px),
+
+// Header
+
+    // Some Header Text
+
+    HeaderLink: (whitelabel-regular, 400, 14px, 0px, 16px),
+    HeaderLinkDesktop: (whitelabel-regular, 400, 16px, 0px, 18px),
+    Header: (whitelabel-regular, 400, 16px, 0px, 18px),
+    HeaderDesktop: (whitelabel-regular, 400, 16px, 0px, 18px),
+    HeaderExtra: (whitelabel-regular, 400, 14px, 0px, 16px),
+    HeaderExtraDesktop: (whitelabel-regular, 400, 16px, 0px, 18px),
+
+// Miscellaneous
+
+    // List Numbers of MostViewed Widget
+
+    ListNumbers: (whitelabel-bold, 700, 48px, 0px, 56px),
+    ListNumbersDesktop: (whitelabel-regular, 400, 54px, 0px, 56px),
+
+);
+
+@import './engines/Typer';

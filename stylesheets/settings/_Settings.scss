@@ -1,0 +1,32 @@
+// Settings / Global file | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+$ThemesUI: (
+    WhiteLabel,
+    CanalU
+);
+
+@import './engines/ThemerUI';
+
+// Body container for wrapper according to design
+
+$BodyContainer: 1180px;
+$BodyContainerTablet: 500px;
+$Aside-Mobile: 768px;
+$Aside-Desktop: 414px;
+
+// Iconography Version
+
+$WFVersion: 'v1.9.2';
+
+// Fonts names definitions
+
+// $Font-1: '';
+// $Font-2: '';
+
+// Settings engines files routes
+
+@import './Colors';
+@import './Breakpoints';
+@import './Icons';
+@import './Placeholders';
+@import './Fonts';

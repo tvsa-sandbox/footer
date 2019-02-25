@@ -1,0 +1,64 @@
+// Kolibri Morpher Mix Engine | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+@mixin Morpher($Device) {
+
+    // Smartphone devices
+
+    @if $Device == $Sp {
+
+        @media (min-width: $Sp-R1) and (max-width: $Sp-R2) {
+            @content;
+        }
+    }
+
+    // Tablet devices
+
+    @else if $Device == $Tb {
+
+        @media (min-width: $Tb-R1) and (max-width: $Tb-R2) {
+            @content;
+        }
+    }
+
+    // Laptop devices
+
+    @else if $Device == $Lt {
+
+        @media (min-width: $Lt-R1) and (max-width: $Lt-R2) {
+            @content;
+        }
+    }
+
+    // Desktop devices
+
+    @else if $Device == $Dt {
+
+        @media (min-width: $Dt-R1) and (max-width: $Dt-R2) {
+            @content;
+        }
+    }
+
+    // Desktop HD devices
+
+    @else if $Device == $Dt-HD {
+
+        @media (min-width: $Dt-HD-R1) {
+            @content;
+        }
+    }
+
+    // All Desktop devices
+
+    @else if $Device == All-Desktop {
+
+        @media (min-width: $A-Dt){
+            @content;
+        }
+    }
+
+    @else {
+
+        @warn ' !!! The Breakpoint  #{$Device}, doesn\'t exist, please verify !!! El Breakpoint #{$Device} no existe, por favor verifica !!!';
+
+    }
+} // Morpher Engine

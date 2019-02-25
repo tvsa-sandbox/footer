@@ -1,0 +1,81 @@
+// Kolibri Spekter Mix Engine | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+@mixin Spekter($AspectValue, $BgT: false) {
+
+    @if $AspectValue ==  $AspectV1 {
+
+        // 1x1 Aspect Ratio
+
+        padding-top: $Aspect1;
+
+
+    } @else if  $AspectValue ==  $AspectV2 {
+
+        // 3x4 Aspect Ratio
+
+        padding-top: $Aspect2;
+
+
+    } @else if  $AspectValue ==  $AspectV3 {
+
+        // 4x3 Aspect Ratio
+
+        padding-top: $Aspect3;
+
+
+    } @else if  $AspectValue ==  $AspectV4 {
+
+        // 9x16 Aspect Ratio
+
+        padding-top: $Aspect4;
+
+
+    } @else if  $AspectValue ==  $AspectV5 {
+
+        // 16x9 Aspect Ratio
+
+        padding-top: $Aspect5;
+
+
+    } @else if  $AspectValue ==  $AspectV6 {
+
+        // 40x17 Aspect Ratio
+
+        padding-top: $Aspect6;
+
+    }
+    @if  $BgT == transparent {
+
+        // transparent
+
+        &::before {
+            display: none !important;
+        }
+
+    }
+
+
+    position: relative;
+    width: 100%;
+
+    img {
+
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    @include Themer(background, $PlaceholderBackground, before);
+    @include Themer(color, $PlaceholderIconColor, before) {
+        content: $PlaceholderIcon;
+        align-items: center;
+        display: flex;
+        font-family: Iconography;
+        font-size: $PlaceholderIconSize;
+        height: 100%;
+        justify-content: center;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+    }
+} // Spekter Mix Engine

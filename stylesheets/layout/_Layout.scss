@@ -1,0 +1,34 @@
+// Layout | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+@mixin Layout($Type) {
+
+    @if $Type == Full {
+
+        width: 100%;
+
+    } @else if $Type == Wrapper {
+
+        max-width: $BodyContainer;
+        margin: auto;
+
+    } @else if $Type == Wrapper-Tablet {
+
+        max-width: $BodyContainerTablet;
+        margin: auto;
+
+    } @else if $Type == Aside {
+
+        @include Morpher(Tablet){
+
+            max-width: $Aside-Mobile;
+
+        }
+
+        @include Morpher(All-Desktop){
+
+            max-width: $Aside-Desktop;
+
+        }
+
+    }
+}

@@ -1,0 +1,61 @@
+// Kolibri Themer Engine | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+@mixin Themer($Property, $ColorCat, $ExtraValues:"") {
+
+    $Properties: (
+        background: 'background',
+        color: 'color',
+        border: 'border',
+        border-top: 'border-top',
+        border-right: 'border-right',
+        border-left: 'border-left',
+        border-bottom: 'border-bottom',
+        box-shadow: 'box-shadow',
+        text-shadow: 'text-shadow'
+    );
+
+    @if map-has-key($Properties, $Property) {
+
+        @each $Theme, $ColorDrops in $Palettes {
+
+            @for $i from 1 through length($ColorDrops) {
+
+                $Bucket: nth(nth($ColorDrops, $i), 1);
+                $Color: nth(nth($ColorDrops, $i), 2);
+
+                @if $ColorCat == $Bucket {
+
+                    &.#{$Theme} {
+
+                        @if $ExtraValues == before {
+
+                            &::before {
+                                content: '';
+                                #{$Property}: unquote($Color);
+                                @content;
+                            }
+
+                        } @else if $ExtraValues == after {
+
+                            &::after {
+                                content: '';
+                                #{$Property}: unquote($Color);
+                                @content;
+                            }
+
+                        } @else {
+
+                            #{$Property}: unquote($Color) unquote($ExtraValues);
+
+                        }
+                    }
+                }
+            }
+        }
+
+    } @else {
+
+      @error "'#{$Property}' no es una propiedad permitida. (Solo background, color, border, text-shadow o box-shadow).";
+
+    }
+} // Themer Engine

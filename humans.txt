@@ -1,0 +1,10 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Alan Mena UX/UI Designer @The_Kolibri
+
+# TECHNOLOGY COLOPHON
+
+    HTML5
