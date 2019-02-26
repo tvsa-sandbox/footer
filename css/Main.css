@@ -7,7 +7,6 @@ html {
 
 body {
   margin: 0px;
-  background: #191A1D;
 }
 
 article,
@@ -710,13 +709,6 @@ pre tt:after {
     font-size: 100%;
   }
 }
-* {
-  box-sizing: inherit;
-  transition-property: all;
-  transition-duration: 0.6s;
-  transition-timing-function: ease;
-}
-
 button {
   border: none;
 }
@@ -2864,6 +2856,37 @@ h1, h2, h3, h4, h5, h6 {
 @font-face {
   font-family: "roboto-regular";
   src: url("../assets/0001/fonts/roboto/roboto-regular.eot?") format("eot"), url("../assets/0001/fonts/roboto/roboto-regular.woff2") format("woff2"), url("../assets/0001/fonts/roboto/roboto-regular.woff") format("woff"), url("../assets/0001/fonts/roboto/roboto-regular.ttf") format("truetype");
+}
+.FooterTA__Wrapper {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.FooterTA__Legal {
+  align-items: center;
+  background: red;
+  display: flex;
+  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
+  font-size: 0.75em;
+  font-size: 0.75em;
+  height: 60px;
+  height: 60px;
+  justify-content: center;
+  line-height: 1.3em;
+  text-align: center;
+}
+.FooterTA__Legal-Paragraph {
+  max-width: 90%;
+}
+@media (min-width: 769px) {
+  .FooterTA__Legal-Paragraph {
+    max-width: 100%;
+  }
+}
+.FooterTA__Legal-TVSA {
+  font-size: 0.9em;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=Main.css.map */

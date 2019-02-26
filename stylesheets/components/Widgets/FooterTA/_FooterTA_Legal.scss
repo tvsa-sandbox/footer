@@ -1,0 +1,35 @@
+// Footer Televisa Legal | WhiteLabel MarkUp v1.3.3 Silver Ivory | 2/2/19
+
+.FooterTA {
+
+	&__Legal {
+
+		align-items: center;
+		background: red;
+		display: flex;
+		font-family: Helvetica, sans-serif;
+		font-family: Helvetica, sans-serif;
+		font-size: 0.75em;
+		font-size: 0.75em;
+		height: 60px;
+		height: 60px;
+		justify-content: center;
+		line-height: 1.3em;
+		text-align: center;
+
+		&-Paragraph {
+
+			max-width: 90%;
+			@include Morpher(All-Desktop) {
+
+				max-width: 100%;
+			}
+		}
+
+		&-TVSA {
+
+			font-size: .9em;
+			text-transform: uppercase;
+		}
+	}
+}

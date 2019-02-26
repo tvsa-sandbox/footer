@@ -7,7 +7,6 @@ html {
 }
 body {
   margin: 0px;
-  background: #191A1D;
 }
 article,
 aside,
@@ -623,13 +622,6 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}
-
-* {
-  box-sizing: inherit;
-  transition-property: all;
-  transition-duration: .6s;
-  transition-timing-function: ease;
 }
 
 button {
