@@ -10,9 +10,22 @@
 
 	&__PavilionTrack {
 
+		display: flex;
+    	overflow: scroll;
 	}
 
 	&__PavilionPanel {
+
+		min-width: 100%;
+    	background: red;
+    	height: 100%;
+
+		@include Morpher(All-Desktop) {
+
+			max-width: (100% / 3);
+			min-width: 0;
+
+		}
 
 	}
 
