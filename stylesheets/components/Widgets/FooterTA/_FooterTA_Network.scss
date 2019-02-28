@@ -1,0 +1,26 @@
+// Footer Televisa Network | WhiteLabel MarkUp v1.3.3 Silver Ivory | 2/2/19
+
+.FooterTA {
+
+	&__NetworkWrapper {
+
+		background: green;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+
+
+		@include Morpher(All-Desktop){
+
+			display: flex;
+			height: 60px;
+		}
+
+	}
+
+	&__NetworkLink {
+
+	}
+}
