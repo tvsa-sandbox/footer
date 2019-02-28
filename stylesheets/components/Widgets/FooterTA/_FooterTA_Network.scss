@@ -4,12 +4,12 @@
 
 	&__NetworkWrapper {
 
-		background: green;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		align-items: center;
 		justify-content: center;
 		text-align: center;
+		border-bottom: solid 1px #B7C2D1;
 
 
 		@include Morpher(All-Desktop){
@@ -21,6 +21,18 @@
 	}
 
 	&__NetworkLink {
+
+		font-family: Helvetica, sans-serif;
+		text-decoration: none;
+		font-size: .7em;
+		text-transform: uppercase;
+		color: #102C51;
+    	box-sizing: border-box;
+		display: flex;
+	    justify-content: center;
+	    align-items: center;
+		line-height: 1.5em;
+		padding: 3%;
 
 	}
 }

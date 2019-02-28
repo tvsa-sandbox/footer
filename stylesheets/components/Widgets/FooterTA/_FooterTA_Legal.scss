@@ -5,7 +5,7 @@
 	&__LegalWrapper {
 
 		align-items: center;
-		background: red;
+		background: #133868;
 		display: flex;
 		font-family: Helvetica, sans-serif;
 		font-family: Helvetica, sans-serif;
@@ -16,6 +16,8 @@
 		justify-content: center;
 		line-height: 1.3em;
 		text-align: center;
+		color: #F0F0F0;
+		padding: 0 1.5em;
 
 		&-Paragraph {
 
@@ -25,6 +27,9 @@
 				max-width: 100%;
 			}
 		}
+	}
+
+	&__Legal {
 
 		&-TVSA {
 
