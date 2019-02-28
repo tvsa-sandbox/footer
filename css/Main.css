@@ -2826,6 +2826,2094 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
+.Icn_WhiteLabel.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_WhiteLabel.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Placeholder.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Placeholder.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_PlaceholderVideo.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_PlaceholderVideo.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_PlaceholderNote.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_PlaceholderNote.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_PlaceholderGallery.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_PlaceholderGallery.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Twitter.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Twitter.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Facebook.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Facebook.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_FacebookF.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_FacebookF.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_YouTube.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_YouTube.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Instagram.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Instagram.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_IGTV.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_IGTV.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_WhatsApp.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_WhatsApp.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LinkedIn.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LinkedIn.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LinkedInInner.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LinkedInInner.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Google.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Google.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_GooglePlus.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_GooglePlus.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Spotify.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Spotify.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_TwitterColor.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_TwitterColor.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_FacebookColor.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_FacebookColor.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_FacebookThumbColor-Path1.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_FacebookThumbColor-Path1.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_FacebookThumbColor-Path2.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_FacebookThumbColor-Path2.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_YouTubeColor.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_YouTubeColor.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_WhatsAppColor.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_WhatsAppColor.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LinkedInColor.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LinkedInColor.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_GoogleColor-Path1.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_GoogleColor-Path1.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_GoogleColor-Path2.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_GoogleColor-Path2.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_GoogleColor-Path3.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_GoogleColor-Path3.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_GoogleColor-Path4.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_GoogleColor-Path4.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_GooglePlusColor.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_GooglePlusColor.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Logo.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Logo.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_TelevisaFull.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_TelevisaFull.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Televisa.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Televisa.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_CEA.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_CEA.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellas.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellas.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_ArrowDown.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_ArrowDown.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_ArrowUp.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_ArrowUp.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_ArrowLeft.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_ArrowLeft.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_ArrowRight.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_ArrowRight.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Menu.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Menu.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_ThumbDown.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_ThumbDown.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_ThumbUp.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_ThumbUp.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Search.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Search.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Share.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Share.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Close.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Close.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Email.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Email.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Comments.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Comments.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Pin.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Pin.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Link.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Link.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Schedule.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Schedule.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_ShareVariant.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_ShareVariant.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_ArrowDownload.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_ArrowDownload.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_HorizontalLine.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_HorizontalLine.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_VerticalLine.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_VerticalLine.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Video.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Video.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Pause.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Pause.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_SoundOn.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_SoundOn.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Gallery.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Gallery.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_PhotoFrame.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_PhotoFrame.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Replay.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Replay.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Tap.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Tap.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_SwipeInitial.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_SwipeInitial.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_SwipeInner.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_SwipeInner.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_ArrowShare.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_ArrowShare.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_CopyLink.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_CopyLink.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Comment.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Comment.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Deportes.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Deportes.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Home.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Home.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Note.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Note.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Flag.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Flag.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Statistics.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Statistics.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LaJugada.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LaJugada.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Calendar.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Calendar.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Goals.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Goals.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_SoccerNews.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_SoccerNews.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_VideoPlayer.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_VideoPlayer.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_News.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_News.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Nueve.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Nueve.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_ForoTV.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_ForoTV.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_CanalU.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_CanalU.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_VideoOutline.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_VideoOutline.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_VideoStroke.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_VideoStroke.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_NoteStroke.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_NoteStroke.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_GalleryStroke.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_GalleryStroke.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_CanalCinco.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_CanalCinco.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Asterisk.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Asterisk.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Plus.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Plus.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Series.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Series.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Gamers.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Gamers.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_FourElements.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_FourElements.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Kids.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Kids.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Movies.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Movies.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Anime.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Anime.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Photo.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Photo.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_PlayOutlineThin.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_PlayOutlineThin.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_GalleryOutlineThin.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_GalleryOutlineThin.Televisacom::before {
+  content: "Ё";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_NoteOutlineThin.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_NoteOutlineThin.Televisacom::before {
+  content: "Ђ";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasColor.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasColor.Televisacom::before {
+  content: "豈";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullDark-Path1.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullDark-Path1.Televisacom::before {
+  content: "蘿";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullDark-Path2.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullDark-Path2.Televisacom::before {
+  content: "螺";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullDark-Path3.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullDark-Path3.Televisacom::before {
+  content: "裸";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullDark-Path4.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullDark-Path4.Televisacom::before {
+  content: "邏";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullDark-Path5.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullDark-Path5.Televisacom::before {
+  content: "樂";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullDark-Path6.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullDark-Path6.Televisacom::before {
+  content: "洛";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullDark-Path7.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullDark-Path7.Televisacom::before {
+  content: "烙";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullDark-Path8.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullDark-Path8.Televisacom::before {
+  content: "珞";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullDark-Path9.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullDark-Path9.Televisacom::before {
+  content: "落";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullDark-Path10.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullDark-Path10.Televisacom::before {
+  content: "酪";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullLight-Path1.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullLight-Path1.Televisacom::before {
+  content: "鸞";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullLight-Path2.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullLight-Path2.Televisacom::before {
+  content: "嵐";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullLight-Path3.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullLight-Path3.Televisacom::before {
+  content: "濫";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullLight-Path4.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullLight-Path4.Televisacom::before {
+  content: "藍";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullLight-Path5.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullLight-Path5.Televisacom::before {
+  content: "襤";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullLight-Path6.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullLight-Path6.Televisacom::before {
+  content: "拉";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullLight-Path7.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullLight-Path7.Televisacom::before {
+  content: "臘";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullLight-Path8.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullLight-Path8.Televisacom::before {
+  content: "蠟";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_LasEstrellasFullLight-Path9.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_LasEstrellasFullLight-Path9.Televisacom::before {
+  content: "廊";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
 [class^=Icn_], [class*=" Icn_"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "Iconography";
@@ -2857,49 +4945,74 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "roboto-regular";
   src: url("../assets/0001/fonts/roboto/roboto-regular.eot?") format("eot"), url("../assets/0001/fonts/roboto/roboto-regular.woff2") format("woff2"), url("../assets/0001/fonts/roboto/roboto-regular.woff") format("woff"), url("../assets/0001/fonts/roboto/roboto-regular.ttf") format("truetype");
 }
+.FooterTA {
+  background: #F0F0F0;
+}
 .FooterTA__Wrapper {
   max-width: 1180px;
   margin: auto;
 }
 
 .FooterTA__AppWrapper {
-  background: pink;
   display: flex;
   overflow: scroll;
   justify-content: center;
 }
-@media (min-width: 769px) {
-  .FooterTA__AppWrapper {
-    background: yellow;
-  }
-}
 .FooterTA__App {
-  min-width: 200px;
-  height: 200px;
+  min-width: 100px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  font-size: 0.7em;
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
 }
 @media (min-width: 769px) {
   .FooterTA__App {
     flex-direction: row;
   }
 }
-.FooterTA__AppIcon {
-  width: 100px;
-  height: 100px;
-  border: solid 1px black;
-  border-radius: 10%;
+.FooterTA__AppIcon-Estrellas {
+  background: url("../assets/0001/images/icn_app-estrellas.jpg") center/100% no-repeat;
+  width: 60px;
+  height: 60px;
 }
+.FooterTA__AppIcon-Deportes {
+  background: url("../assets/0001/images/icn_app-deportes.jpg") center/100% no-repeat;
+  width: 60px;
+  height: 60px;
+}
+.FooterTA__AppIcon-Noticieros {
+  background: url("../assets/0001/images/icn_app-noticieros.jpg") center/100% no-repeat;
+  width: 60px;
+  height: 60px;
+}
+.FooterTA__AppName {
+  background: red;
+  width: 150px;
+  font-family: Helvetica, sans-serif;
+  font-size: 0.85em;
+  line-height: 1.3em;
+  padding: 5%;
+}
+.FooterTA__AppHeader {
+  margin: 0;
+  white-space: unset;
+  text-align: center;
+}
+
 .FooterTA__InfoWrapper {
-  background: purple;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   align-content: center;
   justify-items: center;
+  border-bottom: solid 1px #B7C2D1;
+  border-top: solid 1px #B7C2D1;
 }
 @media (min-width: 769px) {
   .FooterTA__InfoWrapper {
@@ -2907,13 +5020,26 @@ h1, h2, h3, h4, h5, h6 {
     height: 60px;
   }
 }
+.FooterTA__InfoLink {
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  color: #102C51;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5em;
+  padding: 3%;
+}
 .FooterTA__InfoLink:nth-child(5) {
   grid-column: 1/3;
 }
 
 .FooterTA__LegalWrapper {
   align-items: center;
-  background: red;
+  background: #133868;
   display: flex;
   font-family: Helvetica, sans-serif;
   font-family: Helvetica, sans-serif;
@@ -2924,6 +5050,8 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   line-height: 1.3em;
   text-align: center;
+  color: #F0F0F0;
+  padding: 0 1.5em;
 }
 .FooterTA__LegalWrapper-Paragraph {
   max-width: 90%;
@@ -2933,18 +5061,18 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 100%;
   }
 }
-.FooterTA__LegalWrapper-TVSA {
+.FooterTA__Legal-TVSA {
   font-size: 0.9em;
   text-transform: uppercase;
 }
 
 .FooterTA__NetworkWrapper {
-  background: green;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
   text-align: center;
+  border-bottom: solid 1px #B7C2D1;
 }
 @media (min-width: 769px) {
   .FooterTA__NetworkWrapper {
@@ -2952,23 +5080,53 @@ h1, h2, h3, h4, h5, h6 {
     height: 60px;
   }
 }
-.FooterTA__SocialWrapper {
-  background: blue;
-  height: 60px;
+.FooterTA__NetworkLink {
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  color: #102C51;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
+  line-height: 1.5em;
+  padding: 3%;
 }
-.FooterTA__PavilionWrapper {
-  background: pink;
+
+.FooterTA__SocialWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3%;
 }
+@media (min-width: 769px) {
+  .FooterTA__SocialWrapper {
+    flex-flow: row-reverse;
+    padding: 1%;
+  }
+}
+.FooterTA__SocialLinksWrapper {
+  display: flex;
+}
+.FooterTA__SocialCopyWrapper {
+  font-family: Helvetica, sans-serif;
+  font-size: 0.6em;
+  color: #102C51;
+}
+@media (min-width: 769px) {
+  .FooterTA__SocialCopyWrapper {
+    font-size: 0.79em;
+  }
+}
+
 .FooterTA__PavilionTrack {
   display: flex;
   overflow: scroll;
 }
 .FooterTA__PavilionPanel {
   min-width: 100%;
-  background: red;
   height: 100%;
 }
 @media (min-width: 769px) {
@@ -2977,8 +5135,25 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 0;
   }
 }
+.FooterTA__PavilionHeader {
+  margin: 0;
+  white-space: unset;
+  text-align: center;
+}
+.FooterTA__PavilionHeadline {
+  margin: 0;
+  white-space: unset;
+  text-align: center;
+}
+.FooterTA__PavilionParagraph {
+  font-family: Helvetica, sans-serif;
+  font-size: 0.75em;
+  line-height: 1.39em;
+  letter-spacing: -0.01em;
+  padding: 0 1.5em;
+}
+
 .FooterTA__PavilionLogoWrapper {
-  background: blue;
   position: absolute;
 }
 

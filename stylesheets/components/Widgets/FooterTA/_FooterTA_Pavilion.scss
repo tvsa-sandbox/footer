@@ -4,7 +4,6 @@
 
 	&__PavilionWrapper {
 
-		background: pink;
 
 	}
 
@@ -17,7 +16,6 @@
 	&__PavilionPanel {
 
 		min-width: 100%;
-    	background: red;
     	height: 100%;
 
 		@include Morpher(All-Desktop) {
@@ -42,6 +40,10 @@
 
 	&__PavilionHeader {
 
+		margin: 0;
+	    white-space: unset;
+	    text-align: center;
+
 	}
 
 	&__PavilionPanelContent {
@@ -50,9 +52,19 @@
 
 	&__PavilionHeadline {
 
+		margin: 0;
+	    white-space: unset;
+	    text-align: center;
+
 	}
 
 	&__PavilionParagraph {
+
+		font-family: Helvetica, sans-serif;
+	    font-size: .75em;
+	    line-height: 1.39em;
+	    letter-spacing: -.01em;
+		padding: 0 1.5em;
 
 	}
 }
