@@ -4991,7 +4991,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 60px;
 }
 .FooterTA__AppName {
-  background: red;
   width: 150px;
   font-family: Helvetica, sans-serif;
   font-size: 0.85em;
@@ -5155,6 +5154,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .FooterTA__PavilionLogoWrapper {
   position: absolute;
+  background: url(../assets/0001/logotypes/lg_televisa.svg) no-repeat;
 }
 
 /*# sourceMappingURL=Main.css.map */
