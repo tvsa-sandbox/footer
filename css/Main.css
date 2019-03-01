@@ -5348,45 +5348,55 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 769px) {
-  .FooterTA__PavilionTrack {
+  .FooterTA__PavilionTrack.Televisacom {
     overflow: hidden;
   }
 }
-.FooterTA__PavilionPanelContent {
+.FooterTA__PavilionPanelContent.Televisacom {
   margin: 1em 0px;
 }
-.FooterTA__PavilionAddress {
+.FooterTA__PavilionAddress.Televisacom {
   display: block;
   margin-bottom: 5px;
 }
-.FooterTA__PavilionPhone {
+.FooterTA__PavilionPhone.Televisacom {
   display: block;
   margin-bottom: 1em;
   text-decoration: none;
 }
-.FooterTA__PavilionPhone.WhiteLabel {
+.FooterTA__PavilionPhone.Televisacom.WhiteLabel {
   color: #949ca5;
 }
-.FooterTA__PavilionPhone.Televisacom {
+.FooterTA__PavilionPhone.Televisacom.Televisacom {
   color: #1D1D27;
 }
-.FooterTA__PavilionHeadline {
+.FooterTA__PavilionHeadline.Televisacom {
   margin-bottom: 10px;
   padding-left: 20px;
   text-align: left;
   text-transform: uppercase;
 }
-.FooterTA__PavilionHeadline.WhiteLabel {
+.FooterTA__PavilionHeadline.Televisacom.WhiteLabel {
   color: #CDCDCD;
 }
-.FooterTA__PavilionHeadline.Televisacom {
+.FooterTA__PavilionHeadline.Televisacom.Televisacom {
   color: #102C51;
 }
-.FooterTA__PavilionHeader {
+.FooterTA__PavilionHeader.Televisacom {
   text-transform: uppercase;
   font-size: 20px;
 }
-.FooterTA__Contact {
+.FooterTA__PavilionParagraph {
+  margin-bottom: 1em;
+  font-size: 13px;
+}
+.FooterTA__PavilionParagraph:last-of-type {
+  display: none;
+}
+.FooterTA__PavilionParagraph:nth-last-of-type(2) {
+  display: none;
+}
+.FooterTA__Contact.Televisacom {
   font-family: Helvetica, sans-serif;
   font-style: normal;
   font-size: 0.75em;
@@ -5394,10 +5404,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.39em;
   padding: 0 1.5em;
 }
-.FooterTA__Contact.WhiteLabel {
+.FooterTA__Contact.Televisacom.WhiteLabel {
   color: #949ca5;
 }
-.FooterTA__Contact.Televisacom {
+.FooterTA__Contact.Televisacom.Televisacom {
   color: #1D1D27;
 }
 

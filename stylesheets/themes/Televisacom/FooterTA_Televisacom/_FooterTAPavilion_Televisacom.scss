@@ -2,7 +2,7 @@
 
 .FooterTA {
 
-	&__PavilionTrack {
+	&__PavilionTrack.Televisacom {
 
 		@include Morpher (All-Desktop) {
 
@@ -10,19 +10,19 @@
 		}
 	}
 
-	&__PavilionPanelContent {
+	&__PavilionPanelContent.Televisacom {
 
 		margin: 1em 0px;
 	}
 
-	&__PavilionAddress {
+	&__PavilionAddress.Televisacom {
 
 		display: block;
 		margin-bottom: 5px;
 
 	}
 
-	&__PavilionPhone {
+	&__PavilionPhone.Televisacom {
 
 		display: block;
 		margin-bottom: 1em;
@@ -31,7 +31,7 @@
 		@include Themer(color,Color-4);
 	}
 
-	&__PavilionHeadline {
+	&__PavilionHeadline.Televisacom {
 
 		margin-bottom: 10px;
 		padding-left: 20px;
@@ -42,13 +42,31 @@
 
 	}
 
-	&__PavilionHeader {
+	&__PavilionHeader.Televisacom {
 
 		text-transform: uppercase;
 		font-size: 20px;
 	}
 
-	&__Contact {
+	&__PavilionParagraph {
+
+		margin-bottom: 1em;
+		font-size: 13px;
+
+		&:last-of-type {
+
+			display: none;
+
+		}
+
+		&:nth-last-of-type(2) {
+
+			display: none;
+
+		}
+	}
+
+	&__Contact.Televisacom {
 
 		font-family: Helvetica, sans-serif;
 		font-style: normal;
