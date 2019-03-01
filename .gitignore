@@ -1,3 +1,5 @@
 # Gitignore
 
 css/Main.css.map
+
+\.DS_Store

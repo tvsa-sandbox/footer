@@ -1,29 +1,30 @@
-// Color Palettes Settings File | WhiteLabel MarkUp v1.3.3 Silver Ivory | 25/2/19
+
+// Color Palettes Settings File | WhiteLabel MarkUp v1.3.1 Silver Ivory | 30/11
 
 $Palettes: (
     WhiteLabel: (
         Text-Dark-Headlines: '#000000', // Dark Headlines
         Text-Dark-Body: '#000000', // Dark Body Text
-        Mini-Text-Dark: '#323540', // Small Light Text Body
+        Mini-Text-Dark: '#505763', // Small Light Text Body
         Text-Light-Headlines: '#FFFFF0', // Light Headlines
         Text-Light-Body: '#FFFFF0', // Light Body Text
-        Mini-Text-Light: '#E3E3E3', // Small Light Text Body
-        Color-1: '#323540', // Solids
-        Color-2: 'rgba(141, 145, 165, .8)', // Solid Transparent
-        Color-3: '#E3E3E3', // Interactions
-        Color-4: '#8D91A5', // Inactive
-        Color-5: '#8D91A5', // Tags Labels
-        Color-6: '#323540', // Shadows
+        Mini-Text-Light: '#949ca5', // Small Light Text Body
+        Color-1: '#7e848c', // Solids
+        Color-2: 'rgba(126, 132, 140, .8)', // Solid Transparent
+        Color-3: '#CDCDCD', // Interactions
+        Color-4: '#949ca5', // Inactive
+        Color-5: '#464C53', // Tags Labels
+        Color-6: '#464646', // Shadows
         Color-7: '#fffff0', // Extra
-        Color-8: '#191A1D', // Extra
-        Color-9: '#5E6276', // Extra
-        Color-10: '#E3E3E3', // Extra
-        Color-11: '#363D55', // Extra
+        Color-8: '#91B6F7', // Extra
+        Color-9: '#c0c0c0', // Extra
+        Color-10: '#c0c0c0', // Extra
+        Color-11: '#98a0ab', // Extra
         Color-12: '#fffff0', // Footer Reserved
-        Color-13: '#E3E3E3', // Footer Reserved
-        Color-14: '#8D91A5', // Footer Reserved
-        Color-15: '#323540', // Footer Reserved
-        Gradient-1A: 'rgba(0, 0, 0, .8)', // Gradient 1
+        Color-13: '#717171', // Footer Reserved
+        Color-14: '#686f7d', // Footer Reserved
+        Color-15: '#505767', // Footer Reserved
+        Gradient-1A: '', // Gradient 1
         Gradient-1B: '',
         Gradient-2A: '', // Gradient 2
         Gradient-2B: '',
@@ -35,31 +36,31 @@ $Palettes: (
     Televisacom: (
         Text-Dark-Headlines: '#000000', // Dark Headlines
         Text-Dark-Body: '#000000', // Dark Body Text
-        Mini-Text-Dark: '#323540', // Small Light Text Body
-        Text-Light-Headlines: '#FFFFF0', // Light Headlines
-        Text-Light-Body: '#FFFFF0', // Light Body Text
-        Mini-Text-Light: '#E3E3E3', // Small Light Text Body
-        Color-1: '#323540', // Solids
-        Color-2: 'rgba(141, 145, 165, .8)', // Solid Transparent
-        Color-3: '#E3E3E3', // Interactions
-        Color-4: '#8D91A5', // Inactive
-        Color-5: '#8D91A5', // Tags Labels
-        Color-6: '#323540', // Shadows
-        Color-7: '#fffff0', // Extra
-        Color-8: '#191A1D', // Extra
-        Color-9: '#5E6276', // Extra
-        Color-10: '#E3E3E3', // Extra
-        Color-11: '#363D55', // Extra
-        Color-12: '#fffff0', // Footer Reserved
-        Color-13: '#E3E3E3', // Footer Reserved
-        Color-14: '#8D91A5', // Footer Reserved
-        Color-15: '#323540', // Footer Reserved
-        Gradient-1A: 'rgba(0, 0, 0, .8)', // Gradient 1
-        Gradient-1B: '',
-        Gradient-2A: '', // Gradient 2
-        Gradient-2B: '',
-        Gradient-3A: '', // Gradient 3
-        Gradient-3B: '',
+        Mini-Text-Dark: '#DBDEE8', // Small Light Text Body
+        Text-Light-Headlines: '#FFFFFF', // Light Headlines
+        Text-Light-Body: '#FFFFFF', // Light Body Text
+        Mini-Text-Light: '#EDEDED', // Small Light Text Body
+        Color-1: '#F0F0F0', // Solids
+        Color-2: 'rgba(29, 29, 39, .8)', // Solid Transparent
+        Color-3: '#102C51', // Interactions
+        Color-4: '#1D1D27', // Inactive
+        Color-5: '#60032D', // Tags Labels - En vivo LE
+        Color-6: '#368CFF', // Tags Labels - En vivo ForoTv
+        Color-7: '#B7C2D1', // Shadows
+        Color-8: '#DFDFDF', // Extra - Header
+        Color-9: '#DD307E', // Extra - Las Estrellas
+        Color-10: '#686868', // Extra - Televisa News
+        Color-11: '#006FBA', // Extra - Foro Tv
+        Color-12: '#34BDC5', // Extra - Canal 5
+        Color-13: '#062935', // Extra - Canal 9
+        Color-14: '#842521', // Extra - Deportes
+        Color-15: '#1E143E', // Extra - Bandamax
+        Color-16: '#AFD204', // Extra - Telehit
+        Color-17:'#FF6743', // Extra - Unicable
+        Color-18: '#5395F8', // Extra - Estilo
+        Gradient-1A: 'rgba(76,103,139,0.6)', // Icons
+        Gradient-2A: 'rgba(29, 29, 39, .5)',
+        Gradient-1B: 'rgba(0,0,0,0)', // Transparent color
         Black: '#000000', // Suport
         White: '#FFFFF0'
     )

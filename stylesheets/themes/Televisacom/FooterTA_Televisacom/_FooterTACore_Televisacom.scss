@@ -1,0 +1,13 @@
+// Footer Televisa Core | WhiteLabel MarkUp v1.3.3 Silver Ivory | 2/2/19
+
+.FooterTA.Televisacom {
+
+    @include Themer(background,Color-7);
+
+    &__Wrapper.Televisacom {
+
+        max-width: 1440px;
+        margin: 0 auto;
+
+    }
+}

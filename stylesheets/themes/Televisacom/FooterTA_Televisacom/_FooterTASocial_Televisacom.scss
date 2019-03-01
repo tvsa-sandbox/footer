@@ -1,0 +1,41 @@
+// Footer Televisa Social | WhiteLabel MarkUp v1.3.3 Silver Ivory | 2/2/19
+
+.FooterTA {
+
+	&__SocialWrapper {
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 3%;
+
+		@include Morpher(All-Desktop) {
+
+			flex-flow: row-reverse;
+			padding: 1%;
+		}
+
+	}
+
+	&__SocialLinksWrapper {
+
+		display: flex;
+
+	}
+
+	&__SocialCopyWrapper {
+
+		font-family: Helvetica, sans-serif;
+    	font-size: .6em;
+		color: #102C51;
+
+		@include Morpher(All-Desktop) {
+
+
+			font-size: 0.79em;
+
+		}
+
+	}
+}

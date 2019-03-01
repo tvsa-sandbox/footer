@@ -5156,5 +5156,32 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   background: url(../assets/0001/logotypes/lg_televisa.svg) no-repeat;
 }
+@keyframes pulsar {
+  0% {
+    height: 7px;
+    opacity: 0.2;
+    width: 7px;
+  }
+  50% {
+    height: 8px;
+    opacity: 1;
+    width: 8px;
+  }
+  100% {
+    height: 7px;
+    opacity: 0.2;
+    width: 7px;
+  }
+}
+.FooterTA.Televisacom.WhiteLabel {
+  background: #fffff0;
+}
+.FooterTA.Televisacom.Televisacom {
+  background: #B7C2D1;
+}
+.FooterTA.Televisacom__Wrapper.Televisacom {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
 /*# sourceMappingURL=Main.css.map */

@@ -1,0 +1,70 @@
+// Footer Televisa Pavilion | WhiteLabel MarkUp v1.3.3 Silver Ivory | 2/2/19
+
+.FooterTA {
+
+	&__PavilionWrapper {
+
+
+	}
+
+	&__PavilionTrack {
+
+		display: flex;
+    	overflow: scroll;
+	}
+
+	&__PavilionPanel {
+
+		min-width: 100%;
+    	height: 100%;
+
+		@include Morpher(All-Desktop) {
+
+			max-width: (100% / 3);
+			min-width: 0;
+
+		}
+
+	}
+
+	&__PavilionPanelTop {
+
+		&-About {
+
+		}
+	}
+
+	&__PavilionLogo {
+
+	}
+
+	&__PavilionHeader {
+
+		margin: 0;
+	    white-space: unset;
+	    text-align: center;
+
+	}
+
+	&__PavilionPanelContent {
+
+	}
+
+	&__PavilionHeadline {
+
+		margin: 0;
+	    white-space: unset;
+	    text-align: center;
+
+	}
+
+	&__PavilionParagraph {
+
+		font-family: Helvetica, sans-serif;
+	    font-size: .75em;
+	    line-height: 1.39em;
+	    letter-spacing: -.01em;
+		padding: 0 1.5em;
+
+	}
+}
