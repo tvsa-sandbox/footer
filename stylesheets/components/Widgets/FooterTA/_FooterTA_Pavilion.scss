@@ -1,5 +1,14 @@
 // Footer Televisa Pavilion | WhiteLabel MarkUp v1.3.3 Silver Ivory | 2/2/19
 
+@mixin PavilionHeader {
+
+	height: 120px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	padding: 5%;
+}
+
 .FooterTA {
 
 	&__PavilionWrapper {
@@ -30,6 +39,21 @@
 	&__PavilionPanelTop {
 
 		&-About {
+
+			@include PavilionHeader;
+
+		}
+
+		&-MapNational {
+
+			@include PavilionHeader;
+
+
+		}
+
+		&-MapGlobal {
+
+			@include PavilionHeader;
 
 		}
 	}
