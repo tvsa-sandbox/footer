@@ -4927,7 +4927,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: "Iconography";
-  src: url("../assets/0001/iconography/iconography_v1.9.2.eot?") format("eot"), url("../assets/0001/iconography/iconography_v1.9.2.woff2") format("woff2"), url("../assets/0001/iconography/iconography_v1.9.2.woff") format("woff"), url("../assets/0001/iconography/iconography_v1.9.2.ttf") format("truetype");
+  src: url("../assets/0001/iconography/iconography_v1.9.6.eot?") format("eot"), url("../assets/0001/iconography/iconography_v1.9.6.woff2") format("woff2"), url("../assets/0001/iconography/iconography_v1.9.6.woff") format("woff"), url("../assets/0001/iconography/iconography_v1.9.6.ttf") format("truetype");
 }
 @font-face {
   font-family: "whitelabel-bold";
@@ -5202,15 +5202,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .FooterTA.Televisacom {
-  background-image: linear-gradient(0deg, #F0F0F0 89%, #F0F0F0 50%);
-  background-position: 0px 120px;
+  background-image: linear-gradient(0deg, #B7C2D1 89%, #B7C2D1 50%);
+  background-position: 0px 97px;
   background-color: #000000;
   background-repeat: no-repeat;
-}
-
-.FooterTA__Wrapper.Televisacom {
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .FooterTA__AppIcon-Estrellas.Televisacom {
@@ -5221,8 +5216,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 769px) {
   .FooterTA__AppIcon-Estrellas.Televisacom {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
   }
 }
 .FooterTA__AppIcon-Deportes.Televisacom {
@@ -5233,8 +5228,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 769px) {
   .FooterTA__AppIcon-Deportes.Televisacom {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
   }
 }
 .FooterTA__AppIcon-Noticieros.Televisacom {
@@ -5245,8 +5240,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 769px) {
   .FooterTA__AppIcon-Noticieros.Televisacom {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
   }
 }
 .FooterTA__AppWrapper.Televisacom {
@@ -5269,7 +5264,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #1D1D27;
 }
 .FooterTA__App {
-  max-width: 150px;
+  min-width: 120px;
+}
+@media (min-width: 769px) {
+  .FooterTA__App {
+    min-width: 180px;
+  }
 }
 .FooterTA__AppHeader.Televisacom {
   font-size: 20px;
@@ -5347,6 +5347,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #1D1D27;
 }
 
+.FooterTA__PavilionPanelTop-About.Televisacom {
+  background-size: cover;
+  height: 97px;
+  padding: 2% 5%;
+}
+.FooterTA__PavilionPanelTop-MapNational.Televisacom {
+  background-size: cover;
+  height: 97px;
+  padding: 2% 5%;
+}
+.FooterTA__PavilionPanelTop-MapGlobal.Televisacom {
+  background-size: cover;
+  height: 97px;
+  padding: 2% 5%;
+}
 @media (min-width: 769px) {
   .FooterTA__PavilionTrack.Televisacom {
     overflow: hidden;
@@ -5372,15 +5387,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 .FooterTA__PavilionHeadline.Televisacom {
   margin-bottom: 10px;
-  padding-left: 20px;
+  padding-left: 30px;
   text-align: left;
   text-transform: uppercase;
+  position: relative;
 }
 .FooterTA__PavilionHeadline.Televisacom.WhiteLabel {
   color: #CDCDCD;
 }
 .FooterTA__PavilionHeadline.Televisacom.Televisacom {
   color: #102C51;
+}
+.FooterTA__PavilionHeadline.Televisacom::before {
+  content: "";
+  display: block;
+  font-family: Iconography;
+  font-size: 35px;
+  left: 0px;
+  line-height: 18px;
+  position: absolute;
 }
 .FooterTA__PavilionHeader.Televisacom {
   text-transform: uppercase;
@@ -5409,6 +5434,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .FooterTA__Contact.Televisacom.Televisacom {
   color: #1D1D27;
+}
+
+.FooterTA__PavilionLogoWrapper.Televisacom {
+  background: url(../assets/0001/logotypes/lg_televisa.svg) 22px 15px/150px no-repeat;
 }
 
 /*# sourceMappingURL=Main.css.map */

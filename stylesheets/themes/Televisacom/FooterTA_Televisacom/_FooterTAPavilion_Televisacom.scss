@@ -1,6 +1,35 @@
 // Footer Televisa Pavilion | WhiteLabel MarkUp v1.3.3 Silver Ivory | 2/2/19
 
+@mixin backs {
+
+	background-size: cover;
+	height: 97px;
+	padding: 2% 5%;
+
+}
 .FooterTA {
+
+	&__PavilionPanelTop {
+
+		&-About.Televisacom  {
+
+			@include backs;
+
+		}
+
+		&-MapNational.Televisacom  {
+
+			@include backs;
+
+
+		}
+
+		&-MapGlobal.Televisacom  {
+
+			@include backs;
+
+		}
+	}
 
 	&__PavilionTrack.Televisacom {
 
@@ -34,11 +63,24 @@
 	&__PavilionHeadline.Televisacom {
 
 		margin-bottom: 10px;
-		padding-left: 20px;
+		padding-left: 30px;
 		text-align: left;
 		text-transform: uppercase;
+		position: relative;
 
 		@include Themer(color,Color-3);
+
+		&::before {
+
+			content: '\f600';
+			display: block;
+			font-family: Iconography;
+			font-size: 35px;
+			left: 0px;
+			line-height: 18px;
+			position: absolute;
+
+		}
 
 	}
 

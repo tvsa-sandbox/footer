@@ -2,14 +2,9 @@
 
 .FooterTA {
 
-    &__PavilionLogoWrapper {
+    &__PavilionLogoWrapper.Televisacom {
 
-        position: absolute;
-        background: url(../assets/0001/logotypes/lg_televisa.svg) no-repeat;
-
-    }
-
-    &__PavilionLogo {
+        background: url(../assets/0001/logotypes/lg_televisa.svg) 22px 15px/150px no-repeat;
 
     }
 }

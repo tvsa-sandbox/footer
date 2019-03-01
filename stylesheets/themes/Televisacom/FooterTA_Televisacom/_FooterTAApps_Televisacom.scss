@@ -8,8 +8,8 @@
 
 	@include Morpher(All-Desktop){
 
-		width: 35px;
-		height: 35px;
+		width: 40px;
+		height: 40px;
 
 	}
 }
@@ -45,7 +45,7 @@
 
 		justify-content: flex-start;
 
-		@include Morpher(All-Desktop){
+		@include Morpher(All-Desktop) {
 
 			overflow: auto;
     		flex-wrap: wrap;
@@ -64,8 +64,13 @@
 
 	&__App {
 
-		max-width: 150px;
+		min-width: 120px;
 
+		@include Morpher(All-Desktop) {
+
+			min-width: 180px;
+
+		}
 	}
 
 	&__AppHeader.Televisacom {
