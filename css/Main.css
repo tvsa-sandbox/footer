@@ -5213,26 +5213,47 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
-.FooterTA__AppIcon.Televisacom-Estrellas {
+.FooterTA__AppIcon-Estrellas.Televisacom {
   background: url("../assets/0001/images/icn_app-estrellas.jpg") center/100% no-repeat;
   width: 60px;
   height: 60px;
+  border-radius: 5px;
 }
-.FooterTA__AppIcon.Televisacom-Deportes {
+@media (min-width: 769px) {
+  .FooterTA__AppIcon-Estrellas.Televisacom {
+    width: 35px;
+    height: 35px;
+  }
+}
+.FooterTA__AppIcon-Deportes.Televisacom {
   background: url("../assets/0001/images/icn_app-deportes.jpg") center/100% no-repeat;
   width: 60px;
   height: 60px;
+  border-radius: 5px;
 }
-.FooterTA__AppIcon.Televisacom-Noticieros {
+@media (min-width: 769px) {
+  .FooterTA__AppIcon-Deportes.Televisacom {
+    width: 35px;
+    height: 35px;
+  }
+}
+.FooterTA__AppIcon-Noticieros.Televisacom {
   background: url("../assets/0001/images/icn_app-noticieros.jpg") center/100% no-repeat;
   width: 60px;
   height: 60px;
+  border-radius: 5px;
 }
-.FooterTA__AppWrapper {
+@media (min-width: 769px) {
+  .FooterTA__AppIcon-Noticieros.Televisacom {
+    width: 35px;
+    height: 35px;
+  }
+}
+.FooterTA__AppWrapper.Televisacom {
   justify-content: flex-start;
 }
 @media (min-width: 769px) {
-  .FooterTA__AppWrapper {
+  .FooterTA__AppWrapper.Televisacom {
     overflow: auto;
     flex-wrap: wrap;
     justify-content: center;
@@ -5248,7 +5269,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #1D1D27;
 }
 .FooterTA__App {
-  max-width: 130px;
+  max-width: 150px;
 }
 .FooterTA__AppHeader.Televisacom {
   font-size: 20px;

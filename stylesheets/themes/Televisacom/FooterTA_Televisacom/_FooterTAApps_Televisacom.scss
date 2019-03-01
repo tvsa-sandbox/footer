@@ -1,35 +1,47 @@
 // Footer Televisa Apps | WhiteLabel MarkUp v1.3.3 Silver Ivory | 2/2/19
 
+@mixin IconStyle2 {
 
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+
+	@include Morpher(All-Desktop){
+
+		width: 35px;
+		height: 35px;
+
+	}
+}
 
 .FooterTA {
 
-	&__AppIcon.Televisacom {
+	&__AppIcon {
 
-		&-Estrellas {
+		&-Estrellas.Televisacom {
 
 			background: url('../assets/0001/images/icn_app-estrellas.jpg') center/100% no-repeat;
-			@include IconStyle;
+			@include IconStyle2;
 
 		}
 
-		&-Deportes {
+		&-Deportes.Televisacom {
 
 			background: url('../assets/0001/images/icn_app-deportes.jpg') center/100% no-repeat;
-			@include IconStyle;
+			@include IconStyle2;
 
 		}
 
-		&-Noticieros {
+		&-Noticieros.Televisacom {
 
 			background: url('../assets/0001/images/icn_app-noticieros.jpg') center/100% no-repeat;
-			@include IconStyle;
+			@include IconStyle2;
 
 		}
 
 	}
 
-	&__AppWrapper {
+	&__AppWrapper.Televisacom {
 
 		justify-content: flex-start;
 
@@ -52,7 +64,7 @@
 
 	&__App {
 
-		max-width: 130px;
+		max-width: 150px;
 
 	}
 
