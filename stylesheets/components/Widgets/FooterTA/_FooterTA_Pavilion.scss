@@ -7,6 +7,7 @@
 	justify-content: flex-start;
 	align-items: flex-end;
 	padding: 5%;
+	color: #ffffff;
 }
 
 .FooterTA {
@@ -40,11 +41,15 @@
 
 		&-About {
 
+			background: url('../assets/0001/images/bg_nosotros@2x.png');
+
 			@include PavilionHeader;
 
 		}
 
 		&-MapNational {
+
+			background: url('../assets/0001/images/bg_mexico@2x.png');
 
 			@include PavilionHeader;
 
@@ -52,6 +57,8 @@
 		}
 
 		&-MapGlobal {
+
+			background: url('../assets/0001/images/bg_internacional@2x.png');
 
 			@include PavilionHeader;
 
