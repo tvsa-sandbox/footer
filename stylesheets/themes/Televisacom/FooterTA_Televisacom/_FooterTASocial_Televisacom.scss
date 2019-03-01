@@ -4,6 +4,8 @@
 
 	&__SocialWrapper.Televisacom {
 
+		padding: 30px 0%;
+
 		@include Morpher(All-Desktop) {
 
 			flex-flow: column;

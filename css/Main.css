@@ -5201,16 +5201,90 @@ h1, h2, h3, h4, h5, h6 {
     width: 7px;
   }
 }
-.FooterTA.Televisacom.WhiteLabel {
-  background: #7e848c;
-}
-.FooterTA.Televisacom.Televisacom {
-  background: #F0F0F0;
+.FooterTA.Televisacom {
+  background-image: linear-gradient(0deg, #F0F0F0 89%, #F0F0F0 50%);
+  background-position: 0px 120px;
+  background-color: #000000;
+  background-repeat: no-repeat;
 }
 
 .FooterTA__Wrapper.Televisacom {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.FooterTA__AppIcon.Televisacom-Estrellas {
+  background: url("../assets/0001/images/icn_app-estrellas.jpg") center/100% no-repeat;
+  width: 60px;
+  height: 60px;
+}
+.FooterTA__AppIcon.Televisacom-Deportes {
+  background: url("../assets/0001/images/icn_app-deportes.jpg") center/100% no-repeat;
+  width: 60px;
+  height: 60px;
+}
+.FooterTA__AppIcon.Televisacom-Noticieros {
+  background: url("../assets/0001/images/icn_app-noticieros.jpg") center/100% no-repeat;
+  width: 60px;
+  height: 60px;
+}
+.FooterTA__AppWrapper {
+  justify-content: flex-start;
+}
+@media (min-width: 769px) {
+  .FooterTA__AppWrapper {
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.FooterTA__AppName.Televisacom {
+  width: auto;
+}
+.FooterTA__AppName.Televisacom.WhiteLabel {
+  color: #949ca5;
+}
+.FooterTA__AppName.Televisacom.Televisacom {
+  color: #1D1D27;
+}
+.FooterTA__App {
+  max-width: 130px;
+}
+.FooterTA__AppHeader.Televisacom {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.FooterTA__AppHeader.Televisacom.WhiteLabel {
+  color: #CDCDCD;
+}
+.FooterTA__AppHeader.Televisacom.Televisacom {
+  color: #102C51;
+}
+
+.FooterTA__InfoWrapper.Televisacom.WhiteLabel {
+  border-bottom: #91B6F7 solid 1px;
+}
+.FooterTA__InfoWrapper.Televisacom.Televisacom {
+  border-bottom: #DFDFDF solid 1px;
+}
+.FooterTA__InfoWrapper.Televisacom.WhiteLabel {
+  border-top: #91B6F7 solid 1px;
+}
+.FooterTA__InfoWrapper.Televisacom.Televisacom {
+  border-top: #DFDFDF solid 1px;
+}
+.FooterTA__InfoLink.Televisacom.WhiteLabel {
+  color: #949ca5;
+}
+.FooterTA__InfoLink.Televisacom.Televisacom {
+  color: #1D1D27;
+}
+
+.FooterTA__LegalWrapper.Televisacom.WhiteLabel {
+  background: #CDCDCD;
+}
+.FooterTA__LegalWrapper.Televisacom.Televisacom {
+  background: #102C51;
 }
 
 .FooterTA__NetworkWrapper.Televisacom.WhiteLabel {
@@ -5225,20 +5299,16 @@ h1, h2, h3, h4, h5, h6 {
     height: 60px;
   }
 }
-.FooterTA__NetworkLink.Televisacom {
-  font-family: Helvetica, sans-serif;
-  text-decoration: none;
-  font-size: 0.7em;
-  text-transform: uppercase;
-  color: #102C51;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 1.5em;
-  padding: 3%;
+.FooterTA__NetworkLink.Televisacom.WhiteLabel {
+  color: #949ca5;
+}
+.FooterTA__NetworkLink.Televisacom.Televisacom {
+  color: #1D1D27;
 }
 
+.FooterTA__SocialWrapper.Televisacom {
+  padding: 30px 0%;
+}
 @media (min-width: 769px) {
   .FooterTA__SocialWrapper.Televisacom {
     flex-flow: column;
@@ -5253,6 +5323,60 @@ h1, h2, h3, h4, h5, h6 {
   color: #949ca5;
 }
 .FooterTA__SocialCopyWrapper.Televisacom {
+  color: #1D1D27;
+}
+
+@media (min-width: 769px) {
+  .FooterTA__PavilionTrack {
+    overflow: hidden;
+  }
+}
+.FooterTA__PavilionPanelContent {
+  margin: 1em 0px;
+}
+.FooterTA__PavilionAddress {
+  display: block;
+  margin-bottom: 5px;
+}
+.FooterTA__PavilionPhone {
+  display: block;
+  margin-bottom: 1em;
+  text-decoration: none;
+}
+.FooterTA__PavilionPhone.WhiteLabel {
+  color: #949ca5;
+}
+.FooterTA__PavilionPhone.Televisacom {
+  color: #1D1D27;
+}
+.FooterTA__PavilionHeadline {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.FooterTA__PavilionHeadline.WhiteLabel {
+  color: #CDCDCD;
+}
+.FooterTA__PavilionHeadline.Televisacom {
+  color: #102C51;
+}
+.FooterTA__PavilionHeader {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.FooterTA__Contact {
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 0.75em;
+  letter-spacing: -0.01em;
+  line-height: 1.39em;
+  padding: 0 1.5em;
+}
+.FooterTA__Contact.WhiteLabel {
+  color: #949ca5;
+}
+.FooterTA__Contact.Televisacom {
   color: #1D1D27;
 }
 
