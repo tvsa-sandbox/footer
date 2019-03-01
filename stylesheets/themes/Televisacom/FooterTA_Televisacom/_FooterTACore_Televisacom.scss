@@ -2,7 +2,11 @@
 
 .FooterTA.Televisacom {
 
-    @include Themer(background,Color-7);
+    @include Themer(background,Color-1);
+
+}
+
+.FooterTA {
 
     &__Wrapper.Televisacom {
 

@@ -2,14 +2,9 @@
 
 .FooterTA {
 
-	&__NetworkWrapper {
+	&__NetworkWrapper.Televisacom {
 
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		align-items: center;
-		justify-content: center;
-		text-align: center;
-		border-bottom: solid 1px #B7C2D1;
+		@include Themer(border-bottom,Color-8,"solid 1px");
 
 
 		@include Morpher(All-Desktop){
@@ -20,7 +15,7 @@
 
 	}
 
-	&__NetworkLink {
+	&__NetworkLink.Televisacom {
 
 		font-family: Helvetica, sans-serif;
 		text-decoration: none;

@@ -5196,14 +5196,58 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .FooterTA.Televisacom.WhiteLabel {
-  background: #fffff0;
+  background: #7e848c;
 }
 .FooterTA.Televisacom.Televisacom {
-  background: #B7C2D1;
+  background: #F0F0F0;
 }
-.FooterTA.Televisacom__Wrapper.Televisacom {
+
+.FooterTA__Wrapper.Televisacom {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.FooterTA__NetworkWrapper.Televisacom.WhiteLabel {
+  border-bottom: #91B6F7 solid 1px;
+}
+.FooterTA__NetworkWrapper.Televisacom.Televisacom {
+  border-bottom: #DFDFDF solid 1px;
+}
+@media (min-width: 769px) {
+  .FooterTA__NetworkWrapper.Televisacom {
+    display: flex;
+    height: 60px;
+  }
+}
+.FooterTA__NetworkLink.Televisacom {
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  color: #102C51;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5em;
+  padding: 3%;
+}
+
+@media (min-width: 769px) {
+  .FooterTA__SocialWrapper.Televisacom {
+    flex-flow: column;
+    padding: 30px 1%;
+  }
+}
+.FooterTA__SocialLinksWrapper.Televisacom {
+  width: 115px;
+  justify-content: space-between;
+}
+.FooterTA__SocialCopyWrapper.WhiteLabel {
+  color: #949ca5;
+}
+.FooterTA__SocialCopyWrapper.Televisacom {
+  color: #1D1D27;
 }
 
 /*# sourceMappingURL=Main.css.map */

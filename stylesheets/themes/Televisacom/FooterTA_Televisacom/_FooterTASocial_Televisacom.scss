@@ -2,40 +2,26 @@
 
 .FooterTA {
 
-	&__SocialWrapper {
-
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		padding: 3%;
+	&__SocialWrapper.Televisacom {
 
 		@include Morpher(All-Desktop) {
 
-			flex-flow: row-reverse;
-			padding: 1%;
+			flex-flow: column;
+			padding: 30px 1%;
 		}
 
 	}
 
-	&__SocialLinksWrapper {
+	&__SocialLinksWrapper.Televisacom {
 
-		display: flex;
+		width: 115px;
+		justify-content: space-between;
 
 	}
 
 	&__SocialCopyWrapper {
 
-		font-family: Helvetica, sans-serif;
-    	font-size: .6em;
-		color: #102C51;
-
-		@include Morpher(All-Desktop) {
-
-
-			font-size: 0.79em;
-
-		}
+		@include Themer(color,Color-4);
 
 	}
 }
