@@ -5134,6 +5134,33 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 0;
   }
 }
+.FooterTA__PavilionPanelTop-About {
+  background: url("../assets/0001/images/bg_nosotros@2x.png");
+  height: 120px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 5%;
+  color: #ffffff;
+}
+.FooterTA__PavilionPanelTop-MapNational {
+  background: url("../assets/0001/images/bg_mexico@2x.png");
+  height: 120px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 5%;
+  color: #ffffff;
+}
+.FooterTA__PavilionPanelTop-MapGlobal {
+  background: url("../assets/0001/images/bg_internacional@2x.png");
+  height: 120px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 5%;
+  color: #ffffff;
+}
 .FooterTA__PavilionHeader {
   margin: 0;
   white-space: unset;
@@ -5154,7 +5181,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .FooterTA__PavilionLogoWrapper {
   position: absolute;
-  background: url(../assets/0001/logotypes/lg_televisa.svg) no-repeat;
+  background: url(../assets/0001/logotypes/lg_televisa.svg) 22px center/150px no-repeat;
+  width: 200px;
 }
 
 /*# sourceMappingURL=Main.css.map */
