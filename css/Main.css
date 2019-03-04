@@ -5426,10 +5426,23 @@ h1, h2, h3, h4, h5, h6 {
   white-space: unset;
   text-align: center;
 }
-.FooterTA__PavilionHeadline Televisacom Icn_Location {
+.FooterTA__PavilionHeadline {
   margin: 0 0 0.5em;
   white-space: unset;
   text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2em !important;
+  text-transform: uppercase;
+  color: #133868 !important;
+}
+.FooterTA__PavilionHeadline::before {
+  content: "";
+  font-family: "Iconography";
+  font-size: 2.3em !important;
+  color: #133868;
+}
+.FooterTA .Icn_Location {
+  justify-content: left;
 }
 .FooterTA__PavilionParagraph {
   font-family: Helvetica, sans-serif;
