@@ -14,17 +14,32 @@
 
 		display: flex;
 		overflow: scroll;
-		justify-content: center;
+		justify-content: left;
+		margin: 2% 0 2% 0;
 
 		@include Morpher(All-Desktop) {
+
+
+			height: 70px;
+		}
+
+	}
+
+	&__AppShowroomWrapper {
+
+		margin: 10% 0;
+
+		@include Morpher(All-Desktop) {
+			margin: 5% 0;
+
 		}
 
 	}
 
 	&__App {
 
-		min-width: 100px;
-		height: 100px;
+		min-width: 120px;
+		height: 120px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -33,11 +48,22 @@
 		font-size: .7em;
     	font-family: Helvetica, sans-serif;
     	text-transform: uppercase;
+		margin: 0 10px;
+		border: solid 1px #dadada;
+		border-radius: 10px;
+		color: #133868;
 
 
 		@include Morpher(All-Desktop) {
 
 			flex-direction: row;
+			min-width: 216px;
+			height: 60px;
+
+			&:hover {
+				box-shadow: -2px 2px 6px #b9b9b9;
+			}
+
 
 		}
 
@@ -76,6 +102,14 @@
 	    font-size: .85em;
 		line-height: 1.3em;
 		padding: 5%;
+		text-align: center;
+		font-weight: bold;
+
+		@include Morpher(All-Desktop) {
+			text-align: left;
+
+		}
+
 
 	}
 
@@ -84,6 +118,9 @@
 		margin: 0;
 	    white-space: unset;
 	    text-align: center;
+		text-transform: uppercase;
+    	font-size: 1.2em;
+		color: #102C51;
 
 	}
 }
