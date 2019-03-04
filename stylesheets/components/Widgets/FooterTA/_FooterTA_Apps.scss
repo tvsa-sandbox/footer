@@ -14,17 +14,20 @@
 
 		display: flex;
 		overflow: scroll;
-		justify-content: center;
+		justify-content: left;
+		margin: 2% 0 2% 0;
 
 		@include Morpher(All-Desktop) {
+
+			justify-content: center;
 		}
 
 	}
 
 	&__App {
 
-		min-width: 100px;
-		height: 100px;
+		min-width: 120px;
+		height: 120px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -33,6 +36,9 @@
 		font-size: .7em;
     	font-family: Helvetica, sans-serif;
     	text-transform: uppercase;
+		margin: 0 10px;
+		border: solid 1px #dadada;
+		border-radius: 10px;
 
 
 		@include Morpher(All-Desktop) {
@@ -76,6 +82,13 @@
 	    font-size: .85em;
 		line-height: 1.3em;
 		padding: 5%;
+		text-align: center;
+
+		@include Morpher(All-Desktop) {
+			text-align: left;
+
+		}
+
 
 	}
 
