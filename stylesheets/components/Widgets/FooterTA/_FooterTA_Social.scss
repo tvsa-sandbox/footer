@@ -30,6 +30,12 @@
 
 		margin: 10%;
 
+		@include Morpher(All-Desktop) {
+
+			margin: 5%;
+
+		}
+
 	}
 
 	&__SocialCopyWrapper {
@@ -42,6 +48,7 @@
 
 
 			font-size: 0.79em;
+			margin-right: 2%;
 
 		}
 
