@@ -5161,15 +5161,44 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5%;
   color: #ffffff;
 }
+.FooterTA__PavilionContact {
+  padding: 1.5em;
+  font-style: normal;
+  font-family: Helvetica;
+  font-size: 0.9em;
+  position: relative;
+}
+.FooterTA__PavilionContact:last-child::before {
+  content: "";
+  width: 0;
+  height: 0;
+  background: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.FooterTA__PavilionContact::before {
+  content: "";
+  width: 30%;
+  height: 1px;
+  background: #cacaca;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 .FooterTA__PavilionHeader {
   margin: 0;
   white-space: unset;
   text-align: center;
 }
 .FooterTA__PavilionHeadline {
-  margin: 0;
+  margin: 0 0 0.5em;
   white-space: unset;
-  text-align: center;
+  text-align: left;
 }
 .FooterTA__PavilionParagraph {
   font-family: Helvetica, sans-serif;
@@ -5177,6 +5206,15 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.39em;
   letter-spacing: -0.01em;
   padding: 0 1.5em;
+}
+.FooterTA__PavilionParagraph:nth-child(1) {
+  padding: 1.5em 1.5em 0 1.5em;
+}
+.FooterTA__PavilionPhone {
+  text-decoration: none;
+  display: block;
+  color: black;
+  line-height: 1.2em;
 }
 
 .FooterTA__PavilionLogoWrapper {
