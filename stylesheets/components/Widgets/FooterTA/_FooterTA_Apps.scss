@@ -5,6 +5,7 @@
 
 	width: 60px;
 	height: 60px;
+	border-radius: 8px;
 }
 
 
@@ -107,6 +108,7 @@
 
 		@include Morpher(All-Desktop) {
 			text-align: left;
+			font-size: 1.2em;
 
 		}
 

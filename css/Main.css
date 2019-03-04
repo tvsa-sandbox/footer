@@ -5218,16 +5218,19 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../assets/0001/images/icn_app-estrellas.jpg") center/100% no-repeat;
   width: 60px;
   height: 60px;
+  border-radius: 8px;
 }
 .FooterTA__AppIcon-Deportes {
   background: url("../assets/0001/images/icn_app-deportes.jpg") center/100% no-repeat;
   width: 60px;
   height: 60px;
+  border-radius: 8px;
 }
 .FooterTA__AppIcon-Noticieros {
   background: url("../assets/0001/images/icn_app-noticieros.jpg") center/100% no-repeat;
   width: 60px;
   height: 60px;
+  border-radius: 8px;
 }
 .FooterTA__AppName {
   width: 150px;
@@ -5241,6 +5244,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 769px) {
   .FooterTA__AppName {
     text-align: left;
+    font-size: 1.2em;
   }
 }
 .FooterTA__AppHeader {
@@ -5390,7 +5394,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 769px) {
   .FooterTA__PavilionPanel {
-    max-width: 33.3333333333%;
+    width: 33.3333333333%;
     min-width: 0;
   }
 }
