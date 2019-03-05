@@ -5174,11 +5174,17 @@ h1, h2, h3, h4, h5, h6 {
   overflow: scroll;
   justify-content: left;
   margin: 2% 0 2% 0;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
 }
 @media (min-width: 769px) {
   .FooterTA__AppWrapper {
-    height: 70px;
+    height: 100%;
+    padding: 0 0 1%;
   }
+}
+.FooterTA__AppWrapper::-webkit-scrollbar {
+  width: 0 !important;
 }
 .FooterTA__AppShowroomWrapper {
   margin: 10% 0;
@@ -5208,7 +5214,8 @@ h1, h2, h3, h4, h5, h6 {
   .FooterTA__App {
     flex-direction: row;
     min-width: 216px;
-    height: 60px;
+    padding: 1%;
+    height: 80px;
   }
   .FooterTA__App:hover {
     box-shadow: -2px 2px 6px #b9b9b9;
@@ -5234,12 +5241,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .FooterTA__AppName {
   width: 150px;
-  font-family: Helvetica, sans-serif;
+  font-family: roboto-regular, sans-serif;
   font-size: 0.85em;
   line-height: 1.3em;
   padding: 5%;
   text-align: center;
-  font-weight: bold;
 }
 @media (min-width: 769px) {
   .FooterTA__AppName {
@@ -5248,12 +5254,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .FooterTA__AppHeader {
-  margin: 0;
+  margin: 5% 0 5% 0;
   white-space: unset;
   text-align: center;
   text-transform: uppercase;
-  font-size: 1.2em;
-  color: #102C51;
+  color: #000000;
+  font-family: roboto-medium;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 8px;
 }
 
 .FooterTA__InfoWrapper {
