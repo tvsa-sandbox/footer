@@ -30,7 +30,7 @@
 
 		@include Morpher(All-Desktop) {
 
-			max-width: (100% / 3);
+			width: (100% / 3);
 			min-width: 0;
 
 		}
@@ -65,8 +65,42 @@
 		}
 	}
 
-	&__PavilionLogo {
+	&__PavilionContact {
 
+		padding: 1.5em;
+    	font-style: normal;
+		font-family: Helvetica;
+    	font-size: .9em;
+		position: relative;
+
+		&:last-child {
+
+			&::before {
+
+				content: "";
+				width: 0;
+				height: 0;
+				background: none;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+			}
+		}
+
+		&::before {
+
+			content: "";
+			width: 30%;
+			height: 1px;
+			background: #cacaca;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
 	}
 
 	&__PavilionHeader {
@@ -79,13 +113,36 @@
 
 	&__PavilionPanelContent {
 
+
+
 	}
 
 	&__PavilionHeadline {
 
-		margin: 0;
+		margin: 0 0 .5em;
 	    white-space: unset;
-	    text-align: center;
+	    text-align: left;
+		font-family: Helvetica, sans-serif;
+		font-size: 1.2em !important;
+		text-transform: uppercase;
+		color: #133868 !important;
+
+
+		&::before {
+
+			content: '';
+			font-family: "Iconography";
+			font-size: 2.3em !important;
+			color: #133868;
+
+		}
+
+
+	}
+
+	.Icn_Location {
+
+		justify-content: left;
 
 	}
 
@@ -96,6 +153,21 @@
 	    line-height: 1.39em;
 	    letter-spacing: -.01em;
 		padding: 0 1.5em;
+
+		&:nth-child(1) {
+
+			padding: 1.5em 1.5em 0 1.5em;
+
+		}
+
+	}
+
+	&__PavilionPhone {
+
+		text-decoration: none;
+		display: block;
+		color: black;
+		line-height: 1.2em;
 
 	}
 }

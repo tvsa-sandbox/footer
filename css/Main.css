@@ -2466,6 +2466,114 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
+.Icn_Location.WhiteLabel {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 40px !important;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Location.WhiteLabel::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Article.WhiteLabel {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 40px !important;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Article.WhiteLabel::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_ComentArticle.WhiteLabel {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 40px !important;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_ComentArticle.WhiteLabel::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Player.WhiteLabel {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 40px !important;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Player.WhiteLabel::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Gallerys.WhiteLabel {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 40px !important;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Gallerys.WhiteLabel::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Mail.WhiteLabel {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 40px !important;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Mail.WhiteLabel::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
 .Icn_LasEstrellasColor.WhiteLabel {
   align-items: center;
   color: Black;
@@ -4554,6 +4662,114 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
+.Icn_Location.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Location.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Article.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Article.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_ComentArticle.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_ComentArticle.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Player.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Player.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Gallerys.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Gallerys.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.Icn_Mail.Televisacom {
+  align-items: center;
+  color: Black;
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Icn_Mail.Televisacom::before {
+  content: "";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
 .Icn_LasEstrellasColor.Televisacom {
   align-items: center;
   color: Black;
@@ -4956,11 +5172,27 @@ h1, h2, h3, h4, h5, h6 {
 .FooterTA__AppWrapper {
   display: flex;
   overflow: scroll;
-  justify-content: center;
+  justify-content: left;
+  margin: 2% 0 2% 0;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+@media (min-width: 769px) {
+  .FooterTA__AppWrapper {
+    height: 100%;
+    padding: 0 0 1%;
+    justify-content: center;
+  }
+}
+.FooterTA__AppWrapper::-webkit-scrollbar {
+  width: 0 !important;
+}
+.FooterTA__AppShowroomWrapper {
+  margin: 10% 0 0;
 }
 .FooterTA__App {
-  min-width: 100px;
-  height: 100px;
+  min-width: 120px;
+  height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -4969,38 +5201,64 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.7em;
   font-family: Helvetica, sans-serif;
   text-transform: uppercase;
+  margin: 0 10px;
+  border: solid 1px #dadada;
+  border-radius: 10px;
+  color: #133868;
 }
 @media (min-width: 769px) {
   .FooterTA__App {
     flex-direction: row;
+    min-width: 216px;
+    padding: 1%;
+    height: 80px;
+  }
+  .FooterTA__App:hover {
+    box-shadow: -2px 2px 6px #b9b9b9;
   }
 }
 .FooterTA__AppIcon-Estrellas {
   background: url("../assets/0001/images/icn_app-estrellas.jpg") center/100% no-repeat;
   width: 60px;
   height: 60px;
+  border-radius: 8px;
 }
 .FooterTA__AppIcon-Deportes {
   background: url("../assets/0001/images/icn_app-deportes.jpg") center/100% no-repeat;
   width: 60px;
   height: 60px;
+  border-radius: 8px;
 }
 .FooterTA__AppIcon-Noticieros {
   background: url("../assets/0001/images/icn_app-noticieros.jpg") center/100% no-repeat;
   width: 60px;
   height: 60px;
+  border-radius: 8px;
 }
 .FooterTA__AppName {
   width: 150px;
-  font-family: Helvetica, sans-serif;
+  font-family: roboto-regular, sans-serif;
   font-size: 0.85em;
   line-height: 1.3em;
   padding: 5%;
+  text-align: center;
+}
+@media (min-width: 769px) {
+  .FooterTA__AppName {
+    text-align: left;
+    font-size: 1.2em;
+  }
 }
 .FooterTA__AppHeader {
-  margin: 0;
+  margin: 10% 0 10% 0;
   white-space: unset;
   text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: roboto-medium;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 8px;
 }
 
 .FooterTA__InfoWrapper {
@@ -5108,6 +5366,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 .FooterTA__SocialLinksWrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FooterTA__SocialLinks {
+  margin: 10%;
+}
+@media (min-width: 769px) {
+  .FooterTA__SocialLinks {
+    margin: 5%;
+  }
 }
 .FooterTA__SocialCopyWrapper {
   font-family: Helvetica, sans-serif;
@@ -5117,6 +5385,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 769px) {
   .FooterTA__SocialCopyWrapper {
     font-size: 0.79em;
+    margin-right: 2%;
   }
 }
 
@@ -5130,7 +5399,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 769px) {
   .FooterTA__PavilionPanel {
-    max-width: 33.3333333333%;
+    width: 33.3333333333%;
     min-width: 0;
   }
 }
@@ -5161,15 +5430,57 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5%;
   color: #ffffff;
 }
+.FooterTA__PavilionContact {
+  padding: 1.5em;
+  font-style: normal;
+  font-family: Helvetica;
+  font-size: 0.9em;
+  position: relative;
+}
+.FooterTA__PavilionContact:last-child::before {
+  content: "";
+  width: 0;
+  height: 0;
+  background: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.FooterTA__PavilionContact::before {
+  content: "";
+  width: 30%;
+  height: 1px;
+  background: #cacaca;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 .FooterTA__PavilionHeader {
   margin: 0;
   white-space: unset;
   text-align: center;
 }
 .FooterTA__PavilionHeadline {
-  margin: 0;
+  margin: 0 0 0.5em;
   white-space: unset;
-  text-align: center;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2em !important;
+  text-transform: uppercase;
+  color: #133868 !important;
+}
+.FooterTA__PavilionHeadline::before {
+  content: "";
+  font-family: "Iconography";
+  font-size: 2.3em !important;
+  color: #133868;
+}
+.FooterTA .Icn_Location {
+  justify-content: left;
 }
 .FooterTA__PavilionParagraph {
   font-family: Helvetica, sans-serif;
@@ -5177,6 +5488,15 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.39em;
   letter-spacing: -0.01em;
   padding: 0 1.5em;
+}
+.FooterTA__PavilionParagraph:nth-child(1) {
+  padding: 1.5em 1.5em 0 1.5em;
+}
+.FooterTA__PavilionPhone {
+  text-decoration: none;
+  display: block;
+  color: black;
+  line-height: 1.2em;
 }
 
 .FooterTA__PavilionLogoWrapper {

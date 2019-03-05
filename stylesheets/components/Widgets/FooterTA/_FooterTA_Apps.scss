@@ -5,6 +5,7 @@
 
 	width: 60px;
 	height: 60px;
+	border-radius: 8px;
 }
 
 
@@ -14,17 +15,41 @@
 
 		display: flex;
 		overflow: scroll;
-		justify-content: center;
+		justify-content: left;
+		margin: 2% 0 2% 0;
+		overflow: -moz-scrollbars-none;
+		-ms-overflow-style: none;
 
 		@include Morpher(All-Desktop) {
+
+
+			height: 100%;
+			padding: 0 0 1%;
+			justify-content: center;
+		}
+
+		&::-webkit-scrollbar {
+
+			width: 0 !important
+
+		}
+
+	}
+
+	&__AppShowroomWrapper {
+
+		margin: 10% 0 0;
+
+		@include Morpher(All-Desktop) {
+
 		}
 
 	}
 
 	&__App {
 
-		min-width: 100px;
-		height: 100px;
+		min-width: 120px;
+		height: 120px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -33,11 +58,23 @@
 		font-size: .7em;
     	font-family: Helvetica, sans-serif;
     	text-transform: uppercase;
+		margin: 0 10px;
+		border: solid 1px #dadada;
+		border-radius: 10px;
+		color: #133868;
 
 
 		@include Morpher(All-Desktop) {
 
 			flex-direction: row;
+			min-width: 216px;
+			padding: 1%;
+			height: 80px;
+
+			&:hover {
+				box-shadow: -2px 2px 6px #b9b9b9;
+			}
+
 
 		}
 
@@ -72,18 +109,32 @@
 	&__AppName {
 
 	    width: 150px;
-	    font-family: Helvetica, sans-serif;
+	    font-family: roboto-regular, sans-serif;
 	    font-size: .85em;
 		line-height: 1.3em;
 		padding: 5%;
+		text-align: center;
+
+		@include Morpher(All-Desktop) {
+			text-align: left;
+			font-size: 1.2em;
+
+		}
+
 
 	}
 
 	&__AppHeader {
 
-		margin: 0;
+		margin: 10% 0 10% 0;
 	    white-space: unset;
 	    text-align: center;
+		text-transform: uppercase;
+		color: #000000;
+		font-family: roboto-medium;
+		font-weight: 400;
+		font-size: 20px;
+		letter-spacing: 8px;
 
 	}
 }

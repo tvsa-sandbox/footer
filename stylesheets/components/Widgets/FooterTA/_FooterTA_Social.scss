@@ -21,6 +21,20 @@
 	&__SocialLinksWrapper {
 
 		display: flex;
+		justify-content: center;
+    	align-items: center;
+
+	}
+
+	&__SocialLinks {
+
+		margin: 10%;
+
+		@include Morpher(All-Desktop) {
+
+			margin: 5%;
+
+		}
 
 	}
 
@@ -34,6 +48,7 @@
 
 
 			font-size: 0.79em;
+			margin-right: 2%;
 
 		}
 
