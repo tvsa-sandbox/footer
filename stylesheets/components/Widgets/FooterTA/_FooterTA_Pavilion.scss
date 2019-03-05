@@ -30,7 +30,7 @@
 
 		@include Morpher(All-Desktop) {
 
-			max-width: (100% / 3);
+			width: (100% / 3);
 			min-width: 0;
 
 		}
