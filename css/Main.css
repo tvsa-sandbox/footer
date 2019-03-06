@@ -5278,12 +5278,12 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   align-content: center;
   justify-items: center;
-  border-bottom: solid 1px #d7dbe2;
   border-top: solid 1px #d7dbe2;
 }
 @media (min-width: 769px) {
   .FooterTA__InfoWrapper {
     display: flex;
+    border-bottom: solid 1px #d7dbe2;
   }
 }
 .FooterTA__InfoLink {

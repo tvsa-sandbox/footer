@@ -10,12 +10,13 @@
 		align-items: center;
 		align-content: center;
 		justify-items: center;
-		border-bottom: solid 1px #d7dbe2;
+		
 		border-top: solid 1px #d7dbe2;
 
 		@include Morpher(All-Desktop) {
 
 			display: flex;
+			border-bottom: solid 1px #d7dbe2;
 		}
 
 	}
