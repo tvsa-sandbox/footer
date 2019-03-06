@@ -5604,6 +5604,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 40px;
   }
 }
+.FooterTA__AppShowroomWrapper.Televisacom {
+  margin: 1em 0 0 0;
+}
 .FooterTA__AppWrapper.Televisacom {
   justify-content: flex-start;
 }
@@ -5634,6 +5637,7 @@ h1, h2, h3, h4, h5, h6 {
 .FooterTA__AppHeader.Televisacom {
   font-size: 20px;
   text-transform: uppercase;
+  margin: 1em 0px;
 }
 .FooterTA__AppHeader.Televisacom.WhiteLabel {
   color: #CDCDCD;
@@ -5700,10 +5704,16 @@ h1, h2, h3, h4, h5, h6 {
   width: 115px;
   justify-content: space-between;
 }
-.FooterTA__SocialCopyWrapper.WhiteLabel {
-  color: #949ca5;
+.FooterTA__SocialLinks.Televisacom {
+  margin: 0px;
 }
 .FooterTA__SocialCopyWrapper.Televisacom {
+  margin: 0px;
+}
+.FooterTA__SocialCopyWrapper.Televisacom.WhiteLabel {
+  color: #949ca5;
+}
+.FooterTA__SocialCopyWrapper.Televisacom.Televisacom {
   color: #1D1D27;
 }
 
@@ -5721,6 +5731,10 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   height: 97px;
   padding: 2% 5%;
+}
+.FooterTA__PavilionTrack.Televisacom {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 @media (min-width: 769px) {
   .FooterTA__PavilionTrack.Televisacom {
@@ -5762,7 +5776,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "";
   display: block;
   font-family: Iconography;
-  font-size: 30px;
+  font-size: 30px !important;
   left: 0px;
   line-height: 18px;
   position: absolute;
@@ -5775,25 +5789,27 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
   font-size: 13px;
 }
-.FooterTA__PavilionParagraph:last-of-type {
-  display: none;
-}
-.FooterTA__PavilionParagraph:nth-last-of-type(2) {
-  display: none;
-}
-.FooterTA__Contact.Televisacom {
+.FooterTA__PavilionContact.Televisacom {
   font-family: Helvetica, sans-serif;
   font-style: normal;
   font-size: 0.75em;
   letter-spacing: -0.01em;
   line-height: 1.39em;
-  padding: 0 1.5em;
+  padding: 1.5em;
 }
-.FooterTA__Contact.Televisacom.WhiteLabel {
+.FooterTA__PavilionContact.Televisacom.WhiteLabel {
   color: #949ca5;
 }
-.FooterTA__Contact.Televisacom.Televisacom {
+.FooterTA__PavilionContact.Televisacom.Televisacom {
   color: #1D1D27;
+}
+.FooterTA__PavilionContact.Televisacom.WhiteLabel::before {
+  content: "";
+  background: #91B6F7;
+}
+.FooterTA__PavilionContact.Televisacom.Televisacom::before {
+  content: "";
+  background: #DFDFDF;
 }
 
 .FooterTA__PavilionLogoWrapper.Televisacom {

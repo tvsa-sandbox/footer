@@ -41,6 +41,12 @@
 
 	}
 
+	&__AppShowroomWrapper.Televisacom {
+
+		margin: 1em 0 0 0;
+
+	}
+
 	&__AppWrapper.Televisacom {
 
 		justify-content: flex-start;
@@ -77,6 +83,7 @@
 
 		font-size: 20px;
 		text-transform: uppercase;
+		margin: 1em 0px;
 
 		@include Themer(color,Color-3);
 

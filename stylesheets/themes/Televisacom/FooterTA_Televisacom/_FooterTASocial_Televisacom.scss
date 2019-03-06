@@ -21,8 +21,15 @@
 
 	}
 
-	&__SocialCopyWrapper {
+	&__SocialLinks.Televisacom {
 
+		margin:0px;
+
+	}
+
+	&__SocialCopyWrapper.Televisacom {
+
+		margin: 0px;
 		@include Themer(color,Color-4);
 
 	}
