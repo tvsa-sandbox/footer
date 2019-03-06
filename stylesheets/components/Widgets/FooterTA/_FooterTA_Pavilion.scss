@@ -173,4 +173,38 @@
 		line-height: 1.2em;
 
 	}
+
+	&__PavilionButtons {
+
+		width: 200px;
+		margin: 3% auto;
+		text-align: center;
+
+		@include Morpher(All-Desktop) {
+
+			display: none;
+		}
+
+	}
+
+	&__PavilionDot {
+
+		border-radius: 50%;
+		width: 14px;
+		height: 14px;
+		margin: 0 2%;
+		background: #b3b3b3;
+
+		&-Active {
+
+			border-radius: 50%;
+			width: 14px;
+			height: 14px;
+			margin: 0 2%;
+			background: #133868;
+
+		}
+
+	}
+
 }

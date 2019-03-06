@@ -5499,6 +5499,30 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
   line-height: 1.2em;
 }
+.FooterTA__PavilionButtons {
+  width: 200px;
+  margin: 3% auto;
+  text-align: center;
+}
+@media (min-width: 769px) {
+  .FooterTA__PavilionButtons {
+    display: none;
+  }
+}
+.FooterTA__PavilionDot {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  margin: 0 2%;
+  background: #b3b3b3;
+}
+.FooterTA__PavilionDot-Active {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  margin: 0 2%;
+  background: #133868;
+}
 
 .FooterTA__PavilionLogoWrapper {
   position: absolute;
