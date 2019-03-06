@@ -5455,7 +5455,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .FooterTA__PavilionWrapper {
   border-bottom: solid 1px #d7dbe2;
-  background: url(../assets/0001/images/bg_generic.png) right bottom no-repeat;
+  background: url(../assets/0001/images/bg_generic.jpg) right bottom no-repeat;
 }
 @media (min-width: 769px) {
   .FooterTA__PavilionWrapper {
@@ -5481,6 +5481,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 769px) and (max-width: 1024px) {
   .FooterTA__PavilionPanel:nth-child(1) {
     grid-column: 1/3;
+    margin-bottom: 2%;
   }
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -5556,6 +5557,9 @@ h1, h2, h3, h4, h5, h6 {
   white-space: unset;
   text-align: center;
 }
+.FooterTA__PavilionPanelContent {
+  color: #505050;
+}
 .FooterTA__PavilionHeadline {
   margin: 0 0 0.5em;
   white-space: unset;
@@ -5579,21 +5583,31 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.75em;
   line-height: 1.39em;
   letter-spacing: -0.01em;
-  padding: 0 1.5em;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  text-indent: 1em;
 }
 .FooterTA__PavilionParagraph:nth-child(1) {
-  padding: 1.5em 1.5em 0 1.5em;
+  padding: 1.5em 1.5em 0.5em 1.5em;
+  text-indent: 0;
+}
+.FooterTA__PavilionParagraph:nth-child(1)::first-letter {
+  font-size: 1.2em;
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .FooterTA__PavilionParagraph {
     font-family: Helvetica, sans-serif;
-    font-size: 0.95em;
+    font-size: 0.8em;
     line-height: 1.4em;
     letter-spacing: -0.01em;
-    padding: 0.5em 1.5em 0.5em 1.5em;
+    padding: 0.5em 2.5em 0.5em 2.5em !important;
   }
   .FooterTA__PavilionParagraph:nth-child(1) {
-    padding: 0.5em 1.5em 0.5em 1.5em;
+    padding: 2.5em 2.5em 1em 2.5em !important;
+  }
+}
+@media (min-width: 769px) {
+  .FooterTA__PavilionParagraph {
+    padding: 0.5em 1em 0.5em 1em;
   }
 }
 .FooterTA__PavilionPhone {
@@ -5601,6 +5615,9 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   color: black;
   line-height: 1.2em;
+}
+.FooterTA__PavilionPhone:hover {
+  opacity: 0.7;
 }
 .FooterTA__PavilionButtons {
   width: 200px;
