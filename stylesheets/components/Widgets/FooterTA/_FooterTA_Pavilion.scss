@@ -6,7 +6,7 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-end;
-	padding: 5%;
+	padding: 0 20px 20px;
 	color: #ffffff;
 }
 
@@ -15,6 +15,7 @@
 	&__PavilionWrapper {
 
 		border-bottom: solid 1px #d7dbe2;
+		background: url(../assets/0001/images/bg_generic.png) right bottom no-repeat;
 
 
 		@include Morpher(All-Desktop) {

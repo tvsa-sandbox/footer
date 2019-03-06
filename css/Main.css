@@ -5455,6 +5455,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .FooterTA__PavilionWrapper {
   border-bottom: solid 1px #d7dbe2;
+  background: url(../assets/0001/images/bg_generic.png) right bottom no-repeat;
 }
 @media (min-width: 769px) {
   .FooterTA__PavilionWrapper {
@@ -5500,7 +5501,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  padding: 5%;
+  padding: 0 20px 20px;
   color: #ffffff;
 }
 .FooterTA__PavilionPanelTop-MapNational {
@@ -5509,7 +5510,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  padding: 5%;
+  padding: 0 20px 20px;
   color: #ffffff;
 }
 .FooterTA__PavilionPanelTop-MapGlobal {
@@ -5518,7 +5519,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  padding: 5%;
+  padding: 0 20px 20px;
   color: #ffffff;
 }
 .FooterTA__PavilionContact {
