@@ -5426,6 +5426,11 @@ h1, h2, h3, h4, h5, h6 {
 .FooterTA__PavilionWrapper {
   border-bottom: solid 1px #d7dbe2;
 }
+@media (min-width: 769px) {
+  .FooterTA__PavilionWrapper {
+    padding-bottom: 3%;
+  }
+}
 .FooterTA__PavilionTrack {
   display: flex;
   overflow: scroll;
