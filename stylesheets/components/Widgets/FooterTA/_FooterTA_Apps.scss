@@ -136,5 +136,10 @@
 		font-size: 20px;
 		letter-spacing: 8px;
 
+		@include Morpher(All-Desktop) {
+
+			margin: 4% 0 4% 0;
+
+		}
 	}
 }
