@@ -5190,6 +5190,11 @@ h1, h2, h3, h4, h5, h6 {
 .FooterTA__AppShowroomWrapper {
   margin: 10% 0 0;
 }
+@media (min-width: 769px) {
+  .FooterTA__AppShowroomWrapper {
+    margin: 0;
+  }
+}
 .FooterTA__App {
   min-width: 120px;
   height: 120px;
@@ -5260,6 +5265,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   letter-spacing: 8px;
 }
+@media (min-width: 769px) {
+  .FooterTA__AppHeader {
+    margin: 4% 0 4% 0;
+  }
+}
 
 .FooterTA__InfoWrapper {
   display: grid;
@@ -5268,13 +5278,12 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   align-content: center;
   justify-items: center;
-  border-bottom: solid 1px #B7C2D1;
-  border-top: solid 1px #B7C2D1;
+  border-top: solid 1px #d7dbe2;
 }
 @media (min-width: 769px) {
   .FooterTA__InfoWrapper {
     display: flex;
-    height: 60px;
+    border-bottom: solid 1px #d7dbe2;
   }
 }
 .FooterTA__InfoLink {
@@ -5289,6 +5298,49 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   line-height: 1.5em;
   padding: 3%;
+  height: 45px;
+  border: solid 1px #e8e8e8;
+  width: 100%;
+  box-sizing: border-box;
+}
+.FooterTA__InfoLink:nth-of-type(1) {
+  order: 2;
+}
+.FooterTA__InfoLink:nth-of-type(2) {
+  order: 3;
+}
+.FooterTA__InfoLink:nth-of-type(3) {
+  order: 4;
+}
+.FooterTA__InfoLink:nth-of-type(4) {
+  order: 5;
+}
+.FooterTA__InfoLink:nth-of-type(5) {
+  order: 1;
+}
+@media (min-width: 769px) {
+  .FooterTA__InfoLink {
+    border: none;
+    padding: 0;
+  }
+  .FooterTA__InfoLink:nth-of-type(1) {
+    order: 1;
+  }
+  .FooterTA__InfoLink:nth-of-type(2) {
+    order: 2;
+  }
+  .FooterTA__InfoLink:nth-of-type(3) {
+    order: 3;
+  }
+  .FooterTA__InfoLink:nth-of-type(4) {
+    order: 4;
+  }
+  .FooterTA__InfoLink:nth-of-type(5) {
+    order: 5;
+  }
+}
+.FooterTA__InfoLink:hover {
+  background: #d6d6d6;
 }
 .FooterTA__InfoLink:nth-child(5) {
   grid-column: 1/3;
@@ -5329,12 +5381,11 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-bottom: solid 1px #B7C2D1;
+  border-bottom: solid 1px #d7dbe2;
 }
 @media (min-width: 769px) {
   .FooterTA__NetworkWrapper {
     display: flex;
-    height: 60px;
   }
 }
 .FooterTA__NetworkLink {
@@ -5349,6 +5400,19 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   line-height: 1.5em;
   padding: 3%;
+  height: 45px;
+  border: solid 1px #e8e8e8;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (min-width: 769px) {
+  .FooterTA__NetworkLink {
+    border: none;
+    padding: 0;
+  }
+}
+.FooterTA__NetworkLink:hover {
+  background: #d6d6d6;
 }
 
 .FooterTA__SocialWrapper {
@@ -5389,23 +5453,49 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.FooterTA__PavilionWrapper {
+  border-bottom: solid 1px #d7dbe2;
+}
+@media (min-width: 769px) {
+  .FooterTA__PavilionWrapper {
+    padding-bottom: 3%;
+  }
+}
 .FooterTA__PavilionTrack {
   display: flex;
   overflow: scroll;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .FooterTA__PavilionTrack {
+    display: grid;
+    overflow: unset;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 .FooterTA__PavilionPanel {
   min-width: 100%;
   height: 100%;
   position: relative;
 }
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+  .FooterTA__PavilionPanel:nth-child(1) {
+    grid-column: 1/3;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .FooterTA__PavilionPanel {
+    width: 33.3333333333%;
+    min-width: 0;
+  }
+}
+@media (min-width: 1281px) {
   .FooterTA__PavilionPanel {
     width: 33.3333333333%;
     min-width: 0;
   }
 }
 .FooterTA__PavilionPanelTop-About {
-  background: url("../assets/0001/images/bg_nosotros@2x.png");
+  background: url("../assets/0001/images/bg_nosotros@2x.png") no-repeat black;
   height: 120px;
   display: flex;
   justify-content: flex-start;
@@ -5413,32 +5503,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5%;
   color: #ffffff;
 }
-@media (min-width: 769px) {
-  .FooterTA__PavilionPanelTop-About::before {
-    content: "";
-    display: none;
-  }
-}
-.FooterTA__PavilionPanelTop-About::before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 20px 0 20px 35px;
-  border-color: transparent transparent transparent #ffffff;
-  top: 6%;
-  right: 10%;
-  animation-name: FooterSwipe;
-  animation-duration: 2.8s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-.FooterTA__PavilionPanelTop-About:hover::before {
-  opacity: 0.5;
-}
 .FooterTA__PavilionPanelTop-MapNational {
-  background: url("../assets/0001/images/bg_mexico@2x.png");
+  background: url("../assets/0001/images/bg_mexico@2x.png") no-repeat black;
   height: 120px;
   display: flex;
   justify-content: flex-start;
@@ -5447,7 +5513,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
 }
 .FooterTA__PavilionPanelTop-MapGlobal {
-  background: url("../assets/0001/images/bg_internacional@2x.png");
+  background: url("../assets/0001/images/bg_internacional@2x.png") no-repeat black;
   height: 120px;
   display: flex;
   justify-content: flex-start;
@@ -5517,27 +5583,49 @@ h1, h2, h3, h4, h5, h6 {
 .FooterTA__PavilionParagraph:nth-child(1) {
   padding: 1.5em 1.5em 0 1.5em;
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .FooterTA__PavilionParagraph {
+    font-family: Helvetica, sans-serif;
+    font-size: 0.95em;
+    line-height: 1.4em;
+    letter-spacing: -0.01em;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+  }
+  .FooterTA__PavilionParagraph:nth-child(1) {
+    padding: 0.5em 1.5em 0.5em 1.5em;
+  }
+}
 .FooterTA__PavilionPhone {
   text-decoration: none;
   display: block;
   color: black;
   line-height: 1.2em;
 }
-
-@keyframes FooterSwipe {
-  0% {
-    opacity: 0;
-    right: 20%;
-  }
-  70% {
-    opacity: 1;
-    right: 0%;
-  }
-  100% {
-    opacity: 0;
-    right: 0%;
+.FooterTA__PavilionButtons {
+  width: 200px;
+  margin: 3% auto;
+  text-align: center;
+}
+@media (min-width: 769px) {
+  .FooterTA__PavilionButtons {
+    display: none;
   }
 }
+.FooterTA__PavilionDot {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  margin: 0 2%;
+  background: #b3b3b3;
+}
+.FooterTA__PavilionDot-Active {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  margin: 0 2%;
+  background: #133868;
+}
+
 .FooterTA__PavilionLogoWrapper {
   position: absolute;
   background: url(../assets/0001/logotypes/lg_televisa.svg) 22px center/150px no-repeat;
