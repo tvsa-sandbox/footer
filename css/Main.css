@@ -5455,6 +5455,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .FooterTA__PavilionWrapper {
   border-bottom: solid 1px #d7dbe2;
+  background: url(../assets/0001/images/bg_generic.png) right bottom no-repeat;
 }
 @media (min-width: 769px) {
   .FooterTA__PavilionWrapper {

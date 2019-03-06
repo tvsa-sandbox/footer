@@ -15,6 +15,7 @@
 	&__PavilionWrapper {
 
 		border-bottom: solid 1px #d7dbe2;
+		background: url(../assets/0001/images/bg_generic.png) right bottom no-repeat;
 
 
 		@include Morpher(All-Desktop) {
