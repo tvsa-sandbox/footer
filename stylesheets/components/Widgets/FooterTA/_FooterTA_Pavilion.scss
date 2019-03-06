@@ -6,7 +6,7 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-end;
-	padding: 5%;
+	padding: 0 20px 20px;
 	color: #ffffff;
 }
 
@@ -15,15 +15,12 @@
 	&__PavilionWrapper {
 
 		border-bottom: solid 1px #d7dbe2;
-
+		background: url(../assets/0001/images/bg_generic.jpg) right bottom no-repeat;
 
 		@include Morpher(All-Desktop) {
 
 			padding-bottom: 3%;
-
 		}
-
-
 	}
 
 	&__PavilionTrack {
@@ -36,10 +33,7 @@
 			overflow: unset;
 			grid-template-columns: 1fr 1fr;
 		}
-
 	}
-
-
 
 	&__PavilionPanel {
 
@@ -47,31 +41,26 @@
     	height: 100%;
 		position: relative;
 
-
-
 		@include Morpher(Laptop) {
 
 			&:nth-child(1) {
+
 				grid-column: 1 / 3;
+				margin-bottom: 2%;
 			}
-
-
 		}
 
 		@include Morpher(Desktop) {
 
 			width: (100% / 3);
 			min-width: 0;
-
 		}
 
 		@include Morpher(Desktop-HD) {
 
 			width: (100% / 3);
 			min-width: 0;
-
 		}
-
 	}
 
 	&__PavilionPanelTop {
@@ -81,25 +70,17 @@
 			background: url('../assets/0001/images/bg_nosotros@2x.png') no-repeat black;
 
 			@include PavilionHeader;
-
-			@include Morpher(All-Desktop) {
-
-			}
 		}
 
 		&-MapNational {
 
 			background: url('../assets/0001/images/bg_mexico@2x.png') no-repeat black;
-
 			@include PavilionHeader;
-
-
 		}
 
 		&-MapGlobal {
 
 			background: url('../assets/0001/images/bg_internacional@2x.png') no-repeat black;
-
 			@include PavilionHeader;
 		}
 	}
@@ -152,8 +133,7 @@
 
 	&__PavilionPanelContent {
 
-
-
+		color: #505050;
 	}
 
 	&__PavilionHeadline {
@@ -166,23 +146,18 @@
 		text-transform: uppercase;
 		color: #133868 !important;
 
-
 		&::before {
 
 			content: '';
 			font-family: "Iconography";
 			font-size: 2.3em !important;
 			color: #133868;
-
 		}
-
-
 	}
 
 	.Icn_Location {
 
 		justify-content: left;
-
 	}
 
 	&__PavilionParagraph {
@@ -191,29 +166,38 @@
 	    font-size: .75em;
 	    line-height: 1.39em;
 	    letter-spacing: -.01em;
-		padding: 0 1.5em;
+		padding: .5em 1.5em .5em 1.5em;
+		text-indent: 1em;
 
 		&:nth-child(1) {
 
-			padding: 1.5em 1.5em 0 1.5em;
+			padding: 1.5em 1.5em .5em 1.5em;
+			text-indent: 0;
 
+			&::first-letter {
+
+				font-size: 1.2em;
+			}
 		}
 
 		@include Morpher(Laptop) {
 
 			font-family: Helvetica, sans-serif;
-		    font-size: .95em;
+		    font-size: .8em;
 		    line-height: 1.4em;
 		    letter-spacing: -0.01em;
-		    padding: .5em 1.5em .5em 1.5em;
+		    padding: .5em 2.5em .5em 2.5em !important;
 
 			&:nth-child(1) {
 
-				padding: .5em 1.5em .5em 1.5em;
-
+				padding: 2.5em 2.5em 1em 2.5em !important;
 			}
 		}
 
+		@include Morpher(All-Desktop) {
+
+			padding: .5em 1em .5em 1em;
+		}
 	}
 
 	&__PavilionPhone {
@@ -223,6 +207,11 @@
 		color: black;
 		line-height: 1.2em;
 
+		&:hover {
+
+			opacity: .7;
+
+		}
 	}
 
 	&__PavilionButtons {
@@ -235,7 +224,6 @@
 
 			display: none;
 		}
-
 	}
 
 	&__PavilionDot {
@@ -255,7 +243,5 @@
 			background: #133868;
 
 		}
-
 	}
-
 }
