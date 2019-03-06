@@ -5190,6 +5190,11 @@ h1, h2, h3, h4, h5, h6 {
 .FooterTA__AppShowroomWrapper {
   margin: 10% 0 0;
 }
+@media (min-width: 769px) {
+  .FooterTA__AppShowroomWrapper {
+    margin: 0;
+  }
+}
 .FooterTA__App {
   min-width: 120px;
   height: 120px;
@@ -5418,6 +5423,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.FooterTA__PavilionWrapper {
+  border-bottom: solid 1px #d7dbe2;
+}
 .FooterTA__PavilionTrack {
   display: flex;
   overflow: scroll;
