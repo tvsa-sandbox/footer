@@ -10,8 +10,8 @@
 		align-items: center;
 		align-content: center;
 		justify-items: center;
-		border-bottom: solid 1px #B7C2D1;
-		border-top: solid 1px #B7C2D1;
+		border-bottom: solid 1px #d7dbe2;
+		border-top: solid 1px #d7dbe2;
 
 		@include Morpher(All-Desktop) {
 
@@ -34,6 +34,19 @@
 	    align-items: center;
 		line-height: 1.5em;
 		padding: 3%;
+		height: 45px;
+		border: solid 1px #e8e8e8;
+		width: 100%;
+		box-sizing: border-box;
+
+		@include Morpher(All-Desktop) {
+			border: none;
+
+		}
+
+		&:hover {
+			background: #d6d6d6;
+		}
 
 	}
 
