@@ -5396,6 +5396,7 @@ h1, h2, h3, h4, h5, h6 {
 .FooterTA__PavilionPanel {
   min-width: 100%;
   height: 100%;
+  position: relative;
 }
 @media (min-width: 769px) {
   .FooterTA__PavilionPanel {
@@ -5411,6 +5412,30 @@ h1, h2, h3, h4, h5, h6 {
   align-items: flex-end;
   padding: 5%;
   color: #ffffff;
+}
+@media (min-width: 769px) {
+  .FooterTA__PavilionPanelTop-About::before {
+    content: "";
+    display: none;
+  }
+}
+.FooterTA__PavilionPanelTop-About::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 20px 35px;
+  border-color: transparent transparent transparent #ffffff;
+  top: 6%;
+  right: 10%;
+  animation-name: FooterSwipe;
+  animation-duration: 2.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.FooterTA__PavilionPanelTop-About:hover::before {
+  opacity: 0.5;
 }
 .FooterTA__PavilionPanelTop-MapNational {
   background: url("../assets/0001/images/bg_mexico@2x.png");
@@ -5499,10 +5524,25 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2em;
 }
 
+@keyframes FooterSwipe {
+  0% {
+    opacity: 0;
+    right: 20%;
+  }
+  70% {
+    opacity: 1;
+    right: 0%;
+  }
+  100% {
+    opacity: 0;
+    right: 0%;
+  }
+}
 .FooterTA__PavilionLogoWrapper {
   position: absolute;
   background: url(../assets/0001/logotypes/lg_televisa.svg) 22px center/150px no-repeat;
   width: 200px;
+  z-index: 1;
 }
 @keyframes pulsar {
   0% {
