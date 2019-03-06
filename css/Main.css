@@ -5284,7 +5284,6 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 769px) {
   .FooterTA__InfoWrapper {
     display: flex;
-    height: 60px;
   }
 }
 .FooterTA__InfoLink {
@@ -5307,6 +5306,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 769px) {
   .FooterTA__InfoLink {
     border: none;
+    padding: 0;
   }
 }
 .FooterTA__InfoLink:hover {
@@ -5356,7 +5356,6 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 769px) {
   .FooterTA__NetworkWrapper {
     display: flex;
-    height: 60px;
   }
 }
 .FooterTA__NetworkLink {
@@ -5379,6 +5378,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 769px) {
   .FooterTA__NetworkLink {
     border: none;
+    padding: 0;
   }
 }
 .FooterTA__NetworkLink:hover {
