@@ -251,5 +251,15 @@
         </footer>
         <script type="text/javascript" src="./js/Utils.js"></script>
         <script type="text/javascript" src="./js/footer-slide.js"></script>
+        <script>
+            document.onreadystatechange = () => {
+                if (document.readyState === "complete") {
+                    const FOOTER = new FooterSlider({
+                        track: ".FooterTA__PavilionTrack",
+                        button: ".FooterTA__PavilionButtons",
+                    });
+                }
+            };    
+        </script>
     </body>
 </html>
