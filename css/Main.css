@@ -5524,11 +5524,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
 }
 .FooterTA__PavilionContact {
-  padding: 1.5em;
+  padding: 0.8em;
   font-style: normal;
   font-family: Helvetica;
-  font-size: 0.9em;
+  font-size: 0.75em;
   position: relative;
+  line-height: 1.45em;
 }
 .FooterTA__PavilionContact:last-child::before {
   content: "";
@@ -5561,11 +5562,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #505050;
 }
 .FooterTA__PavilionHeadline {
-  margin: 0 0 0.5em;
+  margin: 0;
   white-space: unset;
   text-align: left;
   font-family: Helvetica, sans-serif;
-  font-size: 1.2em !important;
+  font-size: 1.25em !important;
   text-transform: uppercase;
   color: #133868 !important;
 }
@@ -5580,8 +5581,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .FooterTA__PavilionParagraph {
   font-family: Helvetica, sans-serif;
-  font-size: 0.75em;
-  line-height: 1.39em;
+  font-size: 0.9em;
+  line-height: 1.7em;
   letter-spacing: -0.01em;
   padding: 0.5em 1.5em 0.5em 1.5em;
   text-indent: 1em;
@@ -5589,6 +5590,7 @@ h1, h2, h3, h4, h5, h6 {
 .FooterTA__PavilionParagraph:nth-child(1) {
   padding: 1.5em 1.5em 0.5em 1.5em;
   text-indent: 0;
+  font-size: 0.9em;
 }
 .FooterTA__PavilionParagraph:nth-child(1)::first-letter {
   font-size: 1.2em;
@@ -5596,7 +5598,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 769px) and (max-width: 1024px) {
   .FooterTA__PavilionParagraph {
     font-family: Helvetica, sans-serif;
-    font-size: 0.8em;
+    font-size: 0.9em;
     line-height: 1.4em;
     letter-spacing: -0.01em;
     padding: 0.5em 2.5em 0.5em 2.5em !important;

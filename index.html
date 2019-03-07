@@ -28,7 +28,7 @@
                             </span>
                         </h2>
                     </div>
-                    <div class="FooterTA__PavilionTrack">
+                    <div class="FooterTA__PavilionTrack" id="PavilionTrack">
 
                         <!-- About Panel -->
 
@@ -40,16 +40,7 @@
                             </div>
                             <div class="FooterTA__PavilionPanelContent">
                                 <p class="FooterTA__PavilionParagraph">
-                                    Es la empresa de medios de comunicación más grande en el mundo de habla hispana con base en su capitalización de mercado siendo uno de los principales participantes en el negocio de entretenimiento a nivel mundial.
-                                </p>
-                                <p class="FooterTA__PavilionParagraph">
-                                    Opera cuatro canales de televisión abierta en la Ciudad de México, produce y distribuye 26 marcas de televisión de paga para distribución en México y el resto del mundo y exporta sus programas y formatos a Estados Unidos a través de Univision Communications Inc. (“Univision”) y a otros canales de televisión en más de 50 países.
-                                </p>
-                                <p class="FooterTA__PavilionParagraph">
-                                    Televisa es un participante activo en la industria de telecomunicaciones en México. Tiene una participación mayoritaria en Sky, sistema líder de televisión de paga directa al hogar vía satélite que opera en México, República Dominicana y Centroamérica. Televisa además participa en la industria de las telecomunicaciones en varias regiones de México, en las que ofrece servicios de video, voz y acceso a Internet.
-                                </p>
-                                <p class="FooterTA__PavilionParagraph">
-                                    Televisa también participa en la publicación y distribución de revistas, la producción y transmisión de radio, deportes profesionales y entretenimiento en vivo, producción y distribución de películas, la operación de un portal horizontal de Internet y juegos y sorteos. En Estados Unidos, Televisa cuenta con una participación accionaria e instrumentos con derechos de suscripción de acciones (“warrants”) que una vez intercambiados y previa obtención de cualquier autorización que resulte necesaria por parte de las autoridades regulatorias en Estados Unidos, representarían aproximadamente el 36% sobre una base de dilución y conversión total del capital de Univision Holdings, Inc. (antes, Broadcasting Media Partners, Inc.), la compañía controladora de Univision, la empresa de medios de habla hispana líder en Estados Unidos.
+                                    Televisa es una empresa de medios líder en la producción de contenido audiovisual en español, un operador de cable importante en México, y un sistema de televisión de paga vía satélite líder en México. Televisa distribuye el contenido que produce a través de varios canales de televisión abierta en México y en más de 50 países, a través de 26 marcas de canales de televisión de paga y canales de televisión, operadores de cable y servicios adicionales por internet.
                                 </p>
                             </div>
                         </section>
@@ -90,8 +81,7 @@
                                         San &Aacute;ngel
                                     </h4>
                                     <span class="FooterTA__PavilionAddress">
-                                        Blvd.Adolfo Mateos No.2551, Col.Lomas de
-San Ángel Inn, Álvaro Obregón.C.P. 01790
+                                        Blvd.Adolfo Mateos No.2551, Col.Lomas de San Ángel Inn, Álvaro Obregón.C.P. 01790
                                     </span>
                                     <a href="tel:015557283999" class="FooterTA__PavilionPhone" href="#">
                                         01 55 57 28 3999
@@ -134,7 +124,7 @@ San Ángel Inn, Álvaro Obregón.C.P. 01790
                             </div>
                         </section>
                     </div>
-                    <section class="FooterTA__PavilionButtons">
+                    <section class="FooterTA__PavilionButtons" id="PavilionButons">
                         <button class="FooterTA__PavilionDot-Active" type="button" name="button">
                             <span class="Display">
                                 Slider Button
@@ -250,5 +240,17 @@ San Ángel Inn, Álvaro Obregón.C.P. 01790
                 </p>
             </section>
         </footer>
+        <script type="text/javascript" src="./js/Utils.js"></script>
+        <script type="text/javascript" src="./js/footer-slide.js"></script>
+        <script>
+            document.onreadystatechange = () => {
+                if (document.readyState === "complete") {
+                    const FOOTER = new FooterSlider({
+                        track: ".FooterTA__PavilionTrack",
+                        button: ".FooterTA__PavilionButtons",
+                    });
+                }
+            };    
+        </script>
     </body>
 </html>
