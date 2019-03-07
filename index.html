@@ -28,7 +28,7 @@
                             </span>
                         </h2>
                     </div>
-                    <div class="FooterTA__PavilionTrack">
+                    <div class="FooterTA__PavilionTrack" id="PavilionTrack">
 
                         <!-- About Panel -->
 
@@ -81,8 +81,7 @@
                                         San &Aacute;ngel
                                     </h4>
                                     <span class="FooterTA__PavilionAddress">
-                                        Blvd.Adolfo Mateos No.2551, Col.Lomas de
-San Ángel Inn, Álvaro Obregón.C.P. 01790
+                                        Blvd.Adolfo Mateos No.2551, Col.Lomas de San Ángel Inn, Álvaro Obregón.C.P. 01790
                                     </span>
                                     <a href="tel:015557283999" class="FooterTA__PavilionPhone" href="#">
                                         01 55 57 28 3999
@@ -125,7 +124,7 @@ San Ángel Inn, Álvaro Obregón.C.P. 01790
                             </div>
                         </section>
                     </div>
-                    <section class="FooterTA__PavilionButtons">
+                    <section class="FooterTA__PavilionButtons" id="PavilionButons">
                         <button class="FooterTA__PavilionDot-Active" type="button" name="button">
                             <span class="Display">
                                 Slider Button
@@ -241,5 +240,17 @@ San Ángel Inn, Álvaro Obregón.C.P. 01790
                 </p>
             </section>
         </footer>
+        <script type="text/javascript" src="./js/Utils.js"></script>
+        <script type="text/javascript" src="./js/footer-slide.js"></script>
+        <script>
+            document.onreadystatechange = () => {
+                if (document.readyState === "complete") {
+                    const FOOTER = new FooterSlider({
+                        track: ".FooterTA__PavilionTrack",
+                        button: ".FooterTA__PavilionButtons",
+                    });
+                }
+            };    
+        </script>
     </body>
 </html>
